@@ -1,0 +1,35 @@
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Primary Meta Tags -->
+        <title>{{ site.title }} | {{ page.title }}</title>
+        <meta name="title" content="{{site.title}} | {{page.title}}">
+        <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
+        <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+        <meta property="og:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% endif %}{% else %}/assets/hero.jpg{% endif %}">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:title" content="{{ site.title }} | {{ page.title }}">
+        <meta property="twitter:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+        <meta property="twitter:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% endif %}{% else %}/assets/hero.jpg{% endif %}">
+
+        <!-- Favicon -->
+        <link href="/assets/favicon.png?v=2" rel="shortcut icon" type="image/x-icon">
+        <link href="/assets/webclip.png?v=2" rel="apple-touch-icon">
+
+        <!-- Stylesheets -->
+        <link rel="stylesheet" href="/css/style.css" type="text/css"/>
+        <link rel="stylesheet" href="/css/tachyons.css" type="text/css"/>
+
+        <script>
+        /* to prevent Firefox FOUC */
+        let FF_FOUC_FIX;
+        </script>
+
+        <!-- Analytics -->
+  

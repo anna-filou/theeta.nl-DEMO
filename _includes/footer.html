@@ -1,0 +1,35 @@
+<footer class="container ph4">
+
+    <div class="footer-row">
+        <div class="footer-logo">
+        <img src="{{site.data.footer.logo}}" class="logo w4" alt="{{site.title}} logo">
+        </div>
+
+        <div class="footer-columns">
+            {% for column in site.data.footer[page.lang].columns %}
+            <div class="footer-column">
+                <h5 class="label silver">{{column.heading}}</h5>
+                <div class="footer-links">
+                    {% for link in column.links %}
+                        {% if link.url  %}
+                        <a href="/{{page.lang}}/{{link.url}}" class="dark-gray dim ttc {{link.class}}{% if page.url contains link.url %}bg-light-yellow rounded ph2{% endif %}">{{link.name}}</a>
+                        {% else %}
+                        <div class="dark-gray dim ttc {{link.class}}">{{link.name}}</div>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <div class="footer-copyright label small mt4 ">
+        <div class="mb3">Copyright&nbsp;{{site.time | date: '%Y'}} | <a href="https://theeta.nl/">{{site.title}}</a></div>
+        <div class="subdued">{{ site.data.footer[page.lang].credits }}</div>
+        <div class="subdued">Privacy Notice: We use <a target="_blank" href="https://volument.com/privacy/">privacy-friendly analytics</a> to collect anonymous data, like number of visitors.</div>
+        <!-- <div class="subdued mt2">This website uses anonymized Google Analytics. <a href="https://tools.google.com/dlpage/gaoptout" class="gray dim">Opt-out here.</a></div> -->
+    </div>
+
+</footer>
+
+<script async src="https://cdn.volument.com/v1/volument.js" onload="volument('7d040c6311')"></script>

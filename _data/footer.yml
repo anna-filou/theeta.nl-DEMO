@@ -1,0 +1,43 @@
+logo: 
+en: 
+  columns:
+  - heading: Group 1
+    links: 
+    - name: Link 1
+      url: products
+    - name: Link 2
+      url: kitchen
+  - heading: Group 2
+    links: 
+    - name: About
+      url: about
+    - name: unlinked text
+      class: ttn
+  - heading: Group 3
+    links: 
+    - name: Privacy policy
+      url: privacy-policy
+  footnote: 
+  credits: > 
+    Credits:
+el: 
+  columns:
+  - heading: Group 1
+    links: 
+    - name: Link 1
+      url: products
+    - name: Link 2
+      url: kitchen
+  - heading: Group 2
+    links: 
+    - name: About
+      url: about
+    - name: unlinked text
+      class: ttn
+  - heading: Legal
+    links: 
+    - name: Privacy policy
+      url: privacy-policy
+  footnote: 
+  credits: > 
+    Credits go to
