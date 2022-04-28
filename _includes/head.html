@@ -19,13 +19,18 @@
         <meta property="twitter:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% endif %}{% else %}/assets/hero.jpg{% endif %}">
 
         <!-- Favicon -->
-        <link href="/assets/favicon.png" rel="shortcut icon" type="image/x-icon">
-        <link href="/assets/webclip.png" rel="apple-touch-icon">
+        <!-- <link href="/assets/favicon.png" rel="shortcut icon" type="image/x-icon">
+        <link href="/assets/webclip.png" rel="apple-touch-icon"> -->
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap" rel="stylesheet"> 
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="/css/style.css" type="text/css"/>
         <link rel="stylesheet" href="/css/tachyons.css" type="text/css"/>
-
+        
         <script>
         /* to prevent Firefox FOUC */
         let FF_FOUC_FIX;

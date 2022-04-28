@@ -1,10 +1,30 @@
 en: 
-  - title: Contact
-    url: contact
-  - title: About
-    url: about
-de: 
-  - title: Kontakt
-    url: contact
-  - title: Über uns
-    url: about
+  brands:
+    - title: Beckher
+      url: beckher
+    - title: Sanosil
+      url: sanosil
+    - title: Miravento
+      url: miravento
+  navlinks:
+    - title: About
+      url: about
+    - title: News
+      url: news
+    - title: Careers
+      url: careers
+nl: 
+  brands:
+    - title: Beckher
+      url: beckher
+    - title: Sanosil
+      url: sanosil
+    - title: Miravento
+      url: miravento
+  navlinks:
+    - title: Over ons
+      url: about
+    - title: Nieuws
+      url: news
+    - title: Carrières
+      url: careers

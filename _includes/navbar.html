@@ -1,0 +1,35 @@
+    <nav class="pa2 flex items-center justify-between w-100">
+        <a class="link dim dib pb0-ns ma0-m" href="/{{page.lang}}" title="Go to the Homepage">
+          <img alt="logo" class="logo w4" src="/assets/logo-theeta.svg">
+        </a>
+  
+        <div class="flex items-center flex-wrap lh-copy justify-center">
+          <!-- navlinks.yml -->
+            <div class="pv2 ph3 bg-light-gray br3 items-center lh-copy justify-center mr2 mr4-l dn flex-m flex-l">
+                {% for brand in site.data.navlinks[page.lang].brands %}
+                <a class="mh1 mh2-l link dim dib {% if page.url contains brand.url %}black bg-light-yellow rounded ph2{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{brand.url}}/">{{brand.title}}
+                </a>
+                {% endfor %}
+            </div>
+
+            <div class="dn dib-l">
+                {% for navlink in site.data.navlinks[page.lang].navlinks %}
+                <a class="mh2 link dim dib {% if page.url contains navlink.url %}black bg-light-yellow rounded ph2{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
+                </a>
+            {% endfor %}
+            </div>
+            
+        </div>
+
+        <div class="nav-action pa2 br3 ba b--light-gray dn dib-l">
+        <!-- <a class="navlinks link dim dib" href="/contact.html">Contact</a> -->
+            <div class="navlinks dib">
+            <a href="/en{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim mr2 {% if page.lang == 'en' %}black b{% else %}silver{% endif %}">EN</a>
+            <a href="/el{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim mr2 {% if page.lang == 'nl' %}black b{% else %}silver{% endif %}">NL</a>
+            <a href="/el{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim {% if page.lang == 'el' %}black b{% else %}silver{% endif %}">ΕΛ</a>
+            <!-- <a href="/bg{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="dim mr1 {% if page.lang == 'bg' %}black b{% else %}silver{% endif %}">БГ</a> -->
+            </div>
+        </div>
+
+        <a href="/{{page.lang}}/menu" class="link pv2 ph3 br3 bg-light-gray dn-l">Menu ≡</a>
+      </nav>
