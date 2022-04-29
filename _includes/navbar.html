@@ -5,7 +5,7 @@
   
         <div class="flex items-center flex-wrap lh-copy justify-center">
           <!-- navlinks.yml -->
-            <div class="pv2 ph3 bg-light-gray br3 items-center lh-copy justify-center mr2 mr4-l dn flex-m flex-l">
+            <div class="pv2 ph3 bg-light-gray br3 items-center lh-copy justify-center mr2 mr4-l dn flex-ns">
                 {% for brand in site.data.navlinks[page.lang].brands %}
                 <a class="mh1 mh2-l link dim dib {% if page.url contains brand.url %}black bg-light-yellow rounded ph2{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{brand.url}}/">{{brand.title}}
                 </a>

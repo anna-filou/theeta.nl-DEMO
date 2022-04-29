@@ -1,15 +1,15 @@
 <footer class="container ph4">
 
-    <div class="footer-row">
-        <div class="footer-logo">
+    <div class="">
+        <div class="">
         <img src="{{site.data.footer.logo}}" class="logo w4" alt="{{site.title}} logo">
         </div>
 
-        <div class="footer-columns">
+        <div class="">
             {% for column in site.data.footer[page.lang].columns %}
-            <div class="footer-column">
+            <div class="">
                 <h5 class="label silver">{{column.heading}}</h5>
-                <div class="footer-links">
+                <div class="">
                     {% for link in column.links %}
                         {% if link.url  %}
                         <a href="/{{page.lang}}/{{link.url}}" class="dark-gray dim ttc {{link.class}}{% if page.url contains link.url %}bg-light-yellow rounded ph2{% endif %}">{{link.name}}</a>
@@ -23,7 +23,7 @@
         </div>
     </div>
 
-    <div class="footer-copyright label small mt4 ">
+    <div class="label small mt4 ">
         <div class="mb3">Copyright&nbsp;{{site.time | date: '%Y'}} | <a href="https://theeta.nl/">{{site.title}}</a></div>
         <div class="subdued">{{ site.data.footer[page.lang].credits }}</div>
         <div class="subdued">Privacy Notice: We use <a target="_blank" href="https://volument.com/privacy/">privacy-friendly analytics</a> to collect anonymous data, like number of visitors.</div>
@@ -31,5 +31,46 @@
     </div>
 
 </footer>
+
+<section class="pb0 debug">
+
+    <footer class="bg-light-gray br3 pa5">
+        <div class="w-100 bg-beige flex flex-column flex-row-ns mb4">
+            <div class="w-50-ns">
+                <img src="{{site.data.footer.logo}}" class="w4 db" alt="{{site.title}} logo">
+                LEFT
+            </div>
+            <div class="w-50-ns flex flex-wrap">
+                <div class="w-50 pa1">
+                    <p>1</p>
+                    <p>2</p>
+                    <p>3</p>
+                </div>
+                <div class="w-50">
+                    <p>4</p>
+                    <p>5</p>
+                    <p>6</p>
+                </div>
+                <div class="w-50">
+                    <p>7</p>
+                    <p>8</p>
+                    <p>9</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="w-100 bg-light-red flex flex-column flex-row-ns">
+            <div class="w-50-ns">
+                <a href="">Follow us on LinkedIn</a>
+                <div>Copyright 2022 Theeta BV</div>
+            </div>
+            <div class="w-50-ns">
+                <div>Privacy Notice: We use <a target="_blank" href="https://volument.com/privacy/">privacy-friendly analytics</a> to collect anonymous data, like number of visitors.</div>
+                <div class="o-50">Credits: 3D cards by <a class="link black dim" href="https://codepen.io/figarali">Figar Ali</a></div>
+            </div>
+        </div>
+    </footer>
+
+</section>
 
 <script async src="https://cdn.volument.com/v1/volument.js" onload="volument('7d040c6311')"></script>

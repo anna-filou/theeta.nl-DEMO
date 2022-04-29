@@ -19,9 +19,24 @@ h1,h2 {
 
 /* Extra colors */
 .color-8 {color: #AC4550; fill: #AC4550;}
+.bg-color-8 {background-color: #AC4550;}
 .bg-beige {background-color: #F5F2F0;}
 .beige {color: #F5F2F0;, fill: #F5F2F0;}
 
+
+/* Shadows */
+
+.smooth-shadow {
+  box-shadow:
+  4.1px 3.9px 2.3px rgba(0, 0, 0, 0.031),
+  9px 8.7px 5.5px rgba(0, 0, 0, 0.044),
+  15.2px 14.7px 10.4px rgba(0, 0, 0, 0.055),
+  23.6px 22.8px 18.5px rgba(0, 0, 0, 0.066),
+  36.2px 35px 34.7px rgba(0, 0, 0, 0.079),
+  60px 58px 83px rgba(0, 0, 0, 0.11)
+;
+}
+  
 
 /* 3D Card styling */
 

@@ -1,16 +1,22 @@
 en: 
   - name: Beckher
-    logo: https://theeta.nl/images/Beckher-HOR.png
+    logo: /assets/beckher-logo-horizontal-gradient-orange.png
     cover: https://theeta.nl/images/beckher-bg.jpg
+    item: /assets/large charger lamp w floating phone.png
     intro: Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands, like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors and always aim high.
     tags: Domestic Appliances, Own brand
+    url: beckher
   - name: Sanosil
     logo: https://theeta.nl/images/Sanosil_Logo.png
     cover: https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg
-    intro: Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands, like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors and always aim high.
-    tags: Dininfectant, H2O2, Argentum, hospitals, cooling towers, wastewater
+    item: /assets/Sanosil-Super-25-Ag-5-kg.png
+    intro: The innovative Sanosil chemical disinfectants are highly effective, non-polluting solutions that eradicate microorganisms without affecting the container they clean (active imgredients, H₂O₂ and trace amounts of Ag). Theeta is the exclusive distributor of Sanosil products to businesses in Greece and Cyprus.
+    tags: Dininfectant, H₂O₂, Argentum, hospitals, cooling towers, wastewater
+    url: sanosil
   - name: Miravento
     logo: https://theeta.nl/images/Miravento-Logo-Horiznotal-Lockup-with-Flag.svg 
-    cover: https://theeta.nl/images/beckher-bg.jpg
-    intro: Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands, like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors and always aim high.
+    cover: /assets/vineyards.jpg
+    item: /assets/miravento-moscato-bottles.png
+    intro: Starting in 2022, Theeta introduced Cantina Vallebelbo's Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
     tags: moscato d’asti, prosecco, italian wine, white wine
+    url: miravento

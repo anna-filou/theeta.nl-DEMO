@@ -42,27 +42,34 @@ layout: default
 <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
 </div>
 
-<div class="">
-    <div class="pt5 serif f-headline light-gray i nowrap overflow-hidden">⟵ Scroll ⟵ Scroll ⟵ Scroll ⟵ Scroll ⟵ Scroll</div>
-    <div class="pl6 pt5 serif f-headline light-gray">⟵ ⟵ ⟵</div>
-    <div class="pa6 pt4 nowrap overflow-x-auto flex  w-100">
-        {%- for brand in site.data.brands[page.lang] -%}
-            <div class="w-20-ns mv2 overflow-auto ws-normal" style="min-width: 33vw;">
-                <div class="flex items-center justify-between mb4 w-100">
-                    <h3 class="mv0 f3 serif fw4 i navy">{{brand.name}}</h3>
-                    <div class=""><img src="{{brand.logo}}" class="w4 pa3 ba bw1 b--light-gray" alt="{{brand.name}} logo"></div>
+
+<section>
+    {%- for brand in site.data.brands[page.lang] -%}
+
+    <a class="link" href="{{page.lang}}/{{brand.url}}">
+        <div class="flex flex-column flex-row-l items-top justify-between mv6 grow">
+            <div class="w-50-l bg-navy white pa4 flex flex-column justify-between">
+                <div>
+                    <img class="mb3 w-70" src="{{brand.logo}}" alt="">
+                    <h3 class="serif f3 fw4">{{brand.name}}</h3>
+                    <p class="o-80 lh-copy">{{brand.intro}}</p>
+                   
                 </div>
-                <div class="o-70 lh-copy mb4">{{brand.intro}}</div>
-                <div class="courier ttu tracked gray mb4 f6">{{brand.tags}}</div>
-                <div class="">
-                    <img src="{{brand.cover}}" class="br3" alt="">
+                <div class="courier ttu tracked o-60 mt4 f6">{{brand.tags}}</div>
+            </div>
+            <div class="w-50-l white">
+                <div class="aspect-ratio aspect-ratio--1x1">
+                    <div class="aspect-ratio--object cover flex items-end justify-center pa4" style="background:url({{brand.cover}}) center;">
+                    <img class="h-100" src="{{brand.item}}" alt="{{brand.name}} product">
+                    </div>
                 </div>
             </div>
-            <div style="height: auto; width: 1px; background-color: rgb(227, 227, 227);" class="mh5">&nbsp;</div>
-        {%- endfor -%}  
-        <div class="" style="min-width: 40px;"></div>
-    </div>
-</div>
+        </div>
+    </a>
+
+    {%- endfor -%}  
+    
+</section>
 
 <section>
     <div class="w-100 bg-light-red h1">in section</div>
