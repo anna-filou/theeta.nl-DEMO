@@ -1,0 +1,14 @@
+en: 
+  grid-links:
+    - label: About us
+      title: Learn more about Theeta
+      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
+      url: 
+    - label: News
+      title: Visit the newsroom
+      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
+      url: 
+    - label: Contact us
+      title: Get in touch for collaboration
+      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
+      url: 

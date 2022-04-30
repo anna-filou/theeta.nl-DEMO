@@ -1,81 +1,116 @@
----
-layout: default
----
-
-<section class="pt0 pb6">
-    <h1 class="f1">Our <em>Brands</em></h1>
-    <div class="measure">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>    
-    <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
-    <div id="app" class="mt5 flex flex-column flex-row-l justify-between">
-        <card data-image="https://theeta.nl/images/beckher-bg.jpg">
-        <h1 slot="header">Beckher</h1>
-        <p slot="content">Our own brand of small domestic appliances.</p>
-        </card>
-        <card data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
-        <h1 slot="header">Sanosil</h1>
-        <p slot="content">Innovative, non-polluting disinfectant.</p>
-        </card>
-        <card data-image="https://theeta.nl/images/theeta-miravento-website-banner-2.jpg">
-        <h1 slot="header">Miravento</h1>
-        <p slot="content">Italian Moscato d’Asti, Rosé and Prosecco.</p>
-    </div>
-</section>
+<!DOCTYPE html>
+<html>
+    <head>
+        {% include head.html %}
+    </head>
+    <body lang="{{page.lang}}" class="">     
+        
 
 
-<div class="bg-beige">
-    <section class="pv6 flex flex-column flex-row-l justify-between">
-        <h2 class="f1 serif color-8 w-40 mt2">
-            <em>Ambition</em> lies at the core of what we&nbsp;do
-        </h2>
-        <div class="measure lh-copy">
-            <h3 class="f5">An introduction</h3>
-            <p>While Theeta is a young company, it was created and is led
-                by people who have more than 20 years of experience each
-            running successful manufacturing and distribution firms.</p>
-            <p>Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands,
-                like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors
-                and always aim high.</p>
-        </div>
-    </section>
-</div>
+        <article id="hero" class="bg-hero white">
 
-<div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
-</div>
-
-
-<section>
-    {%- for brand in site.data.brands[page.lang] -%}
-
-    <a class="link" href="{{page.lang}}/{{brand.url}}">
-        <div class="flex flex-column flex-row-l items-top justify-between mv6 grow">
-            <div class="w-50-l bg-navy white pa4 flex flex-column justify-between">
-                <div>
-                    <img class="mb3 w-70" src="{{brand.logo}}" alt="">
-                    <h3 class="serif f3 fw4">{{brand.name}}</h3>
-                    <p class="o-80 lh-copy">{{brand.intro}}</p>
-                   
+            {% include navbar.html %}
+        
+            <section class="pt0 pb6">
+                <h1 class="f1 mb4">Our <em>Brands</em></h1>
+                <div class="f4 w-60-m w-40-l lh-copy o-80">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>    
+                <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
+                <div id="app" class="mt5 flex flex-column flex-row-l justify-between">
+                    <card data-image="https://theeta.nl/images/beckher-bg.jpg">
+                    <h1 slot="header">Beckher</h1>
+                    <p slot="content">Our own brand of small domestic appliances.</p>
+                    </card>
+                    <card data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
+                    <h1 slot="header">Sanosil</h1>
+                    <p slot="content">Innovative, non-polluting disinfectant.</p>
+                    </card>
+                    <card data-image="https://theeta.nl/images/theeta-miravento-website-banner-2.jpg">
+                    <h1 slot="header">Miravento</h1>
+                    <p slot="content">Italian Moscato d’Asti, Rosé and Prosecco.</p>
                 </div>
-                <div class="courier ttu tracked o-60 mt4 f6">{{brand.tags}}</div>
-            </div>
-            <div class="w-50-l white">
-                <div class="aspect-ratio aspect-ratio--1x1">
-                    <div class="aspect-ratio--object cover flex items-end justify-center pa4" style="background:url({{brand.cover}}) center;">
-                    <img class="h-100" src="{{brand.item}}" alt="{{brand.name}} product">
+            </section>
+        </article>
+        
+        
+        
+        <div class="bg-beige">
+            <section class="pv6 flex flex-column flex-row-l justify-between">
+                <h2 class="f1 serif color-2 w-40 mt2">
+                    <em>Ambition</em> lies at the core of what we&nbsp;do
+                </h2>
+                <div class="measure lh-copy">
+                    <h3 class="f5 b">An introduction</h3>
+                    <p>While Theeta is a young company, it was created and is led
+                        by people who have more than 20 years of experience each
+                    running successful manufacturing and distribution firms.</p>
+                    <p>Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands,
+                        like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors
+                        and always aim high.</p>
+                </div>
+            </section>
+        </div>
+        
+        <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
+        </div>
+        
+        
+        <section>
+            {%- for brand in site.data.brands[page.lang] -%}
+        
+            <a class="link" href="{{page.lang}}/{{brand.url}}">
+                <div class="flex flex-column flex-row-l items-top justify-between mv6 grow">
+                    <div class="w-50-l bg-beige black pa5 flex flex-column justify-between">
+                        <div>
+                            <img class="mb3 w-60" src="{{brand.logo}}" alt="">
+                            <h3 class="serif f3 fw4">{{brand.name}}</h3>
+                            <p class="o-80 lh-copy">{{brand.intro}}</p>
+                           
+                        </div>
+                        <div class="courier ttu tracked o-50 mt4 f6">{{brand.tags}}</div>
+                    </div>
+                    <div class="w-50-l white">
+                        <div class="aspect-ratio aspect-ratio--1x1">
+                            <div class="aspect-ratio--object cover flex items-end justify-center pa4" style="background:url({{brand.cover}}) center;">
+                            <img class="h-100" src="{{brand.item}}" alt="{{brand.name}} product">
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </a>
+        
+            {%- endfor -%}   
+        </section>
+        
+        <section class="grid-container pt0">
+            <div class="grid-item grow pa5 tc">
+                <h3 class="label o-70">Static</h3>
+                <div class="f1 lh-solid serif mb4">Example</div>
+                <p class="lh-title o-80 f4">
+                    The animation here works, but not when it’s a link
+                </p>
             </div>
-        </div>
-    </a>
 
-    {%- endfor -%}  
-    
-</section>
+            {% for grid-link in site.data.index[page.lang].grid-links %}
+            <a href="{{grid-link.url}}" class="link grid-item ">
+                <div class="grow pa5 tc flex flex-column justify-center h-100">
+                    <h3 class="label o-60">{{grid-link.label}}</h3>
+                    <div class="f1 lh-solid serif mb3">{{grid-link.title}}</div>
+                    <p class="lh-title o-70 f4">
+                        {{grid-link.text}}
+                    </p>
+                </div>
+            </a>
+                
+            {% endfor %}
+        </section>
 
-<section>
-    <div class="w-100 bg-light-red h1">in section</div>
-</section>
-<div class="w-100 bg-light-blue h5">not in section</div>
+        {% include footer.html %}
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+        <script src="/script.js"></script>
+
+        <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+    </body>
+</html>
 
 
-<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
-<script src="/script.js"></script>

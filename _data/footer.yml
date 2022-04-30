@@ -1,25 +1,38 @@
 logo: /assets/logo-theeta.svg
 en: 
   columns:
-  - heading: Group 1
+  - heading: Brands
     links: 
-    - name: Link 1
-      url: products
-    - name: Link 2
-      url: kitchen
-  - heading: Group 2
+    - name: Beckher
+      url: beckher
+    - name: Sanosil
+      url: sanosil
+    - name: Miravento
+      url: miravento
+  - heading: Company
     links: 
     - name: About
       url: about
-    - name: unlinked text
-      class: ttn
-  - heading: Group 3
+    - name: News
+      url: news
+    - name: Careers
+      url: careers
+  - heading: Office
     links: 
-    - name: Privacy policy
-      url: privacy-policy
+    - name: B. Amsterdam <br>
+            763a Johan Huizingalaan,
+            1066&nbsp;VH, Amsterdam, NL
+      url: https://goo.gl/maps/rG7iEz6UKNA3B2iPA
+  - heading: P.O. Box
+    links: 
+    - name: Theeta B.V. <br>
+            Postbus 321, <br>
+            0000&nbsp;GC, Houten, NL
+      url: 
   footnote: 
   credits: > 
-    Credits:
+    3D cards by [Figar Ali](https://codepen.io/figarali) (MIT Licence). 
+    Website and Logo by [Anna](https://annafilou.com).
 el: 
   columns:
   - heading: Group 1

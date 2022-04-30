@@ -17,12 +17,101 @@ h1,h2 {
     font-weight: 400;
 }
 
-/* Extra colors */
-.color-8 {color: #AC4550; fill: #AC4550;}
-.bg-color-8 {background-color: #AC4550;}
-.bg-beige {background-color: #F5F2F0;}
-.beige {color: #F5F2F0;, fill: #F5F2F0;}
+h3,h4,h5,h6 {
+  font-weight: 400;
+  margin-bottom: 1 em;
+}
 
+footer a {
+  color: #cacaca;
+  text-decoration: none;
+}
+
+footer p {
+  margin: 0;
+}
+
+.label {
+  font-family: 'Consolas', 'Courier New', Courier, monospace;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+/* Extra colors */
+.color-1 {color: #52737E; fill: #52737E;}
+.bg-color-1 {background-color: #52737E;}
+.bg-hero {background: linear-gradient(180deg, #33535D 0%, #52737E 25.52%), #52737E;}
+.color-2 {color: #AC4550; fill: #AC4550;}
+.bg-color-2 {background-color: #AC4550;}
+.bg-beige {background-color: #F5F2F0;}
+.beige {color: #F5F2F0; fill: #F5F2F0;}
+
+/* Grid 2x2 for inline nav links */
+.grid-container {
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  /* grid-row: 1fr 1fr; */
+  grid-auto-rows: 1 fr;
+  grid-column-gap: 0;
+  grid-row-gap: 0;
+}
+
+.grid-item {
+  background-color: #F5F2F0;
+  /* border: #333 solid 1px; */
+  color: black;
+  aspect-ratio: 1;
+  /* transition: all 300ms; */
+}
+
+.grid-item:hover {
+  background-color: #AC4550;
+  color: white;
+  z-index: 99;
+}
+/* Navbar */
+/* I want the navbar to be light on dark sections (e.g. hero) and dark on light sections.
+I will add a class to hero section, which the nav is within, and then CSS, if in that class, override colors */
+
+.color-logo-main {
+  fill: black;
+}
+
+.color-logo-secondary {
+  fill: #C6C6C6;
+}
+
+#hero a {
+  color: rgba(255, 255, 255, 0.787);
+}
+
+#hero .navbox {
+  background: rgba(0, 0, 0, 0.15);
+  box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+#hero .color-logo-main {
+  fill: #D9EFF7;
+}
+
+#hero .color-logo-secondary {
+  fill: #9BC3D1;
+}
+
+footer .color-logo-main {
+  fill: #afafaf;
+}
+
+.muted {
+  fill: #afafaf;
+  color: #afafaf;
+}
+
+footer .color-logo-secondary {
+  fill: #6a6a6a;
+}
 
 /* Shadows */
 
