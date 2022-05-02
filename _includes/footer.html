@@ -1,8 +1,8 @@
-<section class="pb0">
+<section class="pa0 pt3-l ph3-l">
 
-    <footer class="bg-near-black white br3 pa5">
+    <footer class="bg-near-black white br3 ph4 pv5 pa5-l">
         <div class="w-100 flex flex-column flex-row-l mb5">
-            <div class="w-100 w-50-l mb5 mb0-l flex flex-column justify-between">
+            <div class="w-100 w-50-l mb5 mb0-l flex flex-row items-end items-start-l flex-column-l justify-between">
                 <a class="w4 dim" href="/{{page.lang}}">
                     {% include logo.html %}
                 </a>
@@ -15,9 +15,9 @@
                     </svg>
                 </a>
             </div>
-            <div class="w-100 w-50-l flex flex-wrap">
+            <div class="w-100 w-50-l flex flex-wrap nb4">
                 {% for column in site.data.footer[page.lang].columns %}
-                    <div class="w-50 pa0 pa1-l mb4">
+                    <div class="w-50 pr3 pa1-l mb4">
                         <h4 class="label mt0 mb1">{{column.heading}}</h4>
                         {% for link in column.links %}
                             <a class="db lh-copy dim" href="/{{page.lang}}/{{link.url}}">{{link.name}}</a>

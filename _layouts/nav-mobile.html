@@ -4,7 +4,45 @@
         {% include head.html %}
     </head>
     <body lang="{{page.lang}}">
-        {% include nav-mobile.html %}
+
+        <div class="pa3 flex flex-column">
+
+            <nav class="flex items-center justify-between w-100">
+                <a class="link dim dib pb0-ns ma0-m w4" href="/{{page.lang}}" title="Go to the Homepage">
+                  <div class="">
+                    {% include logo.html %}
+                  </div>
+                </a>
+                <a href="/{{page.lang}}" class="link pv2 ph3 br3 navbox">Close ×</a>
+            </nav>
+            
+            <!-- navlinks.yml -->
+
+            <div class="mt3 pv3">
+                <a href="/en{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim mr3 {% if page.lang == 'en' %}black b{% else %}silver{% endif %}">English</a>
+                <a href="/nl{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim mr3 {% if page.lang == 'nl' %}black b{% else %}silver{% endif %}">Nederlands</a>
+                <a href="/el{% if page.collection %}/{{page.category}}{% endif %}/{{page.ref}}" class="link dim {% if page.lang == 'el' %}black b{% else %}silver{% endif %}">Ελληνικά</a>
+            </div>
+
+            <h2 class="f5 label mt4 mb1">Brands</h2>
+            {% for brand in site.data.navlinks[page.lang].brands %}
+            <a class="f3 serif link dim dib pv2 black" href="/{{page.lang}}/{{brand.url}}/">{{brand.title}}
+            </a>
+            {% endfor %}
+
+            <h2 class="f5 label mt4 mb2">Company</h2>
+            {% for navlink in site.data.navlinks[page.lang].navlinks %}
+                <a class="navlinks link dim dib pv2" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
+                </a>
+            {% endfor %}
+
+            <h2 class="f5 label mt4 mb2">Contact</h2>
+                <a class="navlinks link dim dib pv2" href="mailto:info@theeta.nl">info@theeta.nl</a>
+                <a class="navlinks link dim dib pv2" href="https://www.linkedin.com/company/74165055">LinkedIn</a>
+        </div>
+
+
+
         <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
     </body>
 </html>

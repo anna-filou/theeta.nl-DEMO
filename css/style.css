@@ -86,7 +86,10 @@ I will add a class to hero section, which the nav is within, and then CSS, if in
 #hero a {
   color: rgba(255, 255, 255, 0.787);
 }
-
+.navbox {
+  background: #eee;
+  /* box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.2); */
+}
 #hero .navbox {
   background: rgba(0, 0, 0, 0.15);
   box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.2);

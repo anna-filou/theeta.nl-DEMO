@@ -15,18 +15,19 @@
                 <h1 class="f1 mb4">Our <em>Brands</em></h1>
                 <div class="f4 w-60-m w-40-l lh-copy o-80">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>    
                 <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
-                <div id="app" class="mt5 flex flex-column flex-row-l justify-between">
-                    <card data-image="https://theeta.nl/images/beckher-bg.jpg">
-                    <h1 slot="header">Beckher</h1>
-                    <p slot="content">Our own brand of small domestic appliances.</p>
+                <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
+                    <card class="mb6" data-image="https://theeta.nl/images/beckher-bg.jpg">
+                        <h1 slot="header">Beckher</h1>
+                        <p slot="content">Our own brand of small domestic appliances.</p>
                     </card>
-                    <card data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
-                    <h1 slot="header">Sanosil</h1>
-                    <p slot="content">Innovative, non-polluting disinfectant.</p>
+                    <card class="mb6" data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
+                        <h1 slot="header">Sanosil</h1>
+                        <p slot="content">Innovative, non-polluting disinfectant.</p>
                     </card>
-                    <card data-image="https://theeta.nl/images/theeta-miravento-website-banner-2.jpg">
-                    <h1 slot="header">Miravento</h1>
-                    <p slot="content">Italian Moscato d’Asti, Rosé and Prosecco.</p>
+                    <card class="mb6" data-image="https://theeta.nl/images/theeta-miravento-website-banner-2.jpg">
+                        <h1 slot="header">Miravento</h1>
+                        <p slot="content">Italian Moscato d’Asti, Rosé and Prosecco.</p>
+                    </card>
                 </div>
             </section>
         </article>
@@ -35,7 +36,7 @@
         
         <div class="bg-beige">
             <section class="pv6 flex flex-column flex-row-l justify-between">
-                <h2 class="f1 serif color-2 w-40 mt2">
+                <h2 class="f1 serif color-2 w-40-l mt2">
                     <em>Ambition</em> lies at the core of what we&nbsp;do
                 </h2>
                 <div class="measure lh-copy">
@@ -59,18 +60,17 @@
         
             <a class="link" href="{{page.lang}}/{{brand.url}}">
                 <div class="flex flex-column flex-row-l items-top justify-between mv6 grow">
-                    <div class="w-50-l bg-beige black pa5 flex flex-column justify-between">
+                    <div class="w-50-l bg-beige black pa4 pa5-l flex flex-column justify-between br3">
                         <div>
                             <img class="mb3 w-60" src="{{brand.logo}}" alt="">
                             <h3 class="serif f3 fw4">{{brand.name}}</h3>
                             <p class="o-80 lh-copy">{{brand.intro}}</p>
-                           
                         </div>
                         <div class="courier ttu tracked o-50 mt4 f6">{{brand.tags}}</div>
                     </div>
                     <div class="w-50-l white">
                         <div class="aspect-ratio aspect-ratio--1x1">
-                            <div class="aspect-ratio--object cover flex items-end justify-center pa4" style="background:url({{brand.cover}}) center;">
+                            <div class="aspect-ratio--object cover flex items-end justify-center pa4 br3" style="background:url({{brand.cover}}) center;">
                             <img class="h-100" src="{{brand.item}}" alt="{{brand.name}} product">
                             </div>
                         </div>
