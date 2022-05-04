@@ -1,3 +1,6 @@
+---
+---
+
 html {
   scroll-behavior: smooth;
 }
@@ -6,7 +9,7 @@ body {
     font-family: sans-serif;
 }
 section {
-    max-width: 70rem;
+    max-width: 80rem;
     margin-left: auto;
     margin-right: auto;
     padding: 80px 20px;
@@ -38,6 +41,8 @@ footer p {
   letter-spacing: 0.1em;
 }
 
+/* {% include nav-mobile.css %} */
+
 /* Extra colors */
 .color-1 {color: #52737E; fill: #52737E;}
 .bg-color-1 {background-color: #52737E;}
@@ -48,7 +53,7 @@ footer p {
 .beige {color: #F5F2F0; fill: #F5F2F0;}
 
 /* Grid 2x2 for inline nav links */
-.grid-container {
+.grid-container-2x2r {
   display:grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: 1fr 1fr; */
@@ -58,7 +63,7 @@ footer p {
   grid-row-gap: 0;
 }
 
-.grid-item {
+.grid-item-2x2 {
   background-color: #F5F2F0;
   /* border: #333 solid 1px; */
   color: black;
@@ -66,11 +71,29 @@ footer p {
   /* transition: all 300ms; */
 }
 
-.grid-item:hover {
+.grid-item-2x2:hover {
   background-color: #AC4550;
   color: white;
   z-index: 99;
 }
+
+.dib-hover {
+  display: none;
+  transition: all .25s;
+}
+.dib-hover:hover {
+  display: inline-block;
+}
+
+a.grid-item-2x2 {
+  transition: all .25s;
+}
+
+a:hover .dib-hover {
+  display: inline-block;
+}
+
+
 /* Navbar */
 /* I want the navbar to be light on dark sections (e.g. hero) and dark on light sections.
 I will add a class to hero section, which the nav is within, and then CSS, if in that class, override colors */
@@ -83,7 +106,7 @@ I will add a class to hero section, which the nav is within, and then CSS, if in
   fill: #C6C6C6;
 }
 
-#hero a {
+#hero a, #hero {
   color: rgba(255, 255, 255, 0.787);
 }
 .navbox {
@@ -187,7 +210,7 @@ footer .color-logo-secondary {
     position: relative;
     flex: 0 0 240px;
     width: 280px;
-    height: 380px;
+    height: 400px;
     background-color: #333;
     overflow: hidden;
     border-radius: 10px;
@@ -244,9 +267,36 @@ footer .color-logo-secondary {
     transition: 5s 1s cubic-bezier(0.445, 0.05, 0.55, 0.95);
   }
   
-  .card-info h1 {
-    font-family: "Inter", sans-serif;
+  .card-info .title {
     font-size: 36px;
-    font-weight: 400;
-    text-shadow: rgba(0, 0, 0, 0.5) 0 10px 10px;
+    font-weight: 200;
+    text-shadow: rgba(0, 0, 0, 0.3) 0 10px 10px;
   }
+
+@media screen and (max-width: 35em) {
+
+  /* Grid 2x2 for inline nav links */
+  .grid-container-2x2r {
+    display:grid;
+    grid-template-columns: 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    /* grid-row: 1fr 1fr; */
+    grid-auto-rows: 1fr;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+  }
+
+  .grid-item-2x2 {
+    background-color: #F5F2F0;
+    /* border: #333 solid 1px; */
+    color: black;
+    aspect-ratio: 1;
+    /* transition: all 300ms; */
+  }
+}
+
+@media screen and (min-width: 36em) {
+  section {
+    padding: 80px 60px;
+  }
+}

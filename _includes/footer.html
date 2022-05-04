@@ -18,7 +18,7 @@
             <div class="w-100 w-50-l flex flex-wrap nb4">
                 {% for column in site.data.footer[page.lang].columns %}
                     <div class="w-50 pr3 pa1-l mb4">
-                        <h4 class="label mt0 mb1">{{column.heading}}</h4>
+                        <h4 class="label mt0 mb1 o-70">{{column.heading}}</h4>
                         {% for link in column.links %}
                             <a class="db lh-copy dim" href="/{{page.lang}}/{{link.url}}">{{link.name}}</a>
                         {% endfor %}
@@ -28,7 +28,7 @@
         </div>
 
         <div class="w-100 flex flex-column flex-row-l items-end">
-            <div class="w-100 w-50-l mb4 mb0-l">
+            <div class="w-100 w-50-l mb4 mb0-l f6">
                 <div class="o-70 mb3">© {{ site.time | date: '%Y' }}, Theeta B.V.</div>
                 <div class="o-50 link">{{site.data.footer[page.lang].credits | markdownify}}</div>
             </div>
@@ -40,5 +40,3 @@
     </footer>
 
 </section>
-
-<script async src="https://cdn.volument.com/v1/volument.js" onload="volument('7d040c6311')"></script>
