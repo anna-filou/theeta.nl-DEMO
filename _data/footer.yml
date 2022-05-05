@@ -17,6 +17,8 @@ en:
       url: news
     - name: Careers
       url: careers
+    - name: Contact
+      url: contact
   - heading: Office
     links: 
     - name: B. Amsterdam <br>
