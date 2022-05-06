@@ -60,6 +60,19 @@
                 </div>
             </section>
         </div>
+
+        <section class="">
+            <h2 class="f2 tc serif mt2 o-60 bb bw1 b--light-gray">
+                Some of our <em>Clients</em>
+            </h2>
+            <div class="flex flex-column flex-row-l flex-wrap items-center justify-around mb5">
+                {% for image in site.static_files %}
+                {% if image.path contains 'assets/client-logos' %}
+                        <img src="{{image.path}}" class="w-70 w-30-l mv5 mb0-l mh3-l"/>
+                {% endif %}
+		    {% endfor %}
+            </div>
+        </section>
         
         <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
         </div>
