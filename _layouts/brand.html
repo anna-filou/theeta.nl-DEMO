@@ -5,16 +5,18 @@ layout: default
 
 {%- if brand.name == page.title -%}
 
-<section class="bg-beige pb6">
+<section class="bg-beige mt4 pt5 pb6 br4">
     <div class="flex justify-between items-center">
-        <h1 class="mv0 f-headline mb2">{{brand.name}}</h1>
+        <h1 class="mv0 f-headline mb2 color-2">{{brand.name}}</h1>
         <div class="w5">
             <img src="{{brand.logo}}" alt="{{brand.name}} logo">
         </div>
     </div>
     <p class="f3 mb5 serif lh-title black-60">{{brand.intro}}</p>
     <div class="aspect-ratio aspect-ratio--8x5 mb4">
-        <div class="aspect-ratio--object cover" style="background:url({{brand.cover}}) center;"></div>
+        <div class="aspect-ratio--object cover br3 pa5 flex justify-end" style="background:url({{brand.cover}}) center;">
+            <img class="h-100" src="{{brand.item}}" alt="{{brand.name}} product">
+        </div>
     </div>
     <div class="f4 mt6 measure-wide center">
         {{brand.text | markdownify}}
@@ -25,24 +27,14 @@ layout: default
     <h1 class="f1 mb4 black-60">See more of our <em>Brands</em> →</h1>
     <div class="f4 w-60-m w-40-l lh-copy o-60">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>    
     <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
-        <!-- <a href="https://beckher.com/en" target="_blank">
-            <card class="mb6" data-image="https://theeta.nl/images/beckher-bg.jpg">
-                <h2 slot="header" class="title">Beckher</h2>
-                <p slot="content">Our own brand of small domestic appliances.</p>
-            </card>
-        </a> -->
-        <!-- <card class="mb6" data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
-            <h2 slot="header" class="title">Sanosil</h2>
-            <p slot="content">Innovative, non-polluting disinfectant.</p>
-        </card> -->
-        <card class="mb6" data-image="https://theeta.nl/images/beckher-bg.jpg">
+        <card class="mb6" data-image="/assets/abstract-bg-2.jpg">
             <div slot="header" class="flex flex-column align-center mv0">
                 <h2 class="title tc">Beckher</h2>
-                <img class="" src="/assets/coffeemaker_mi-cm-1601b.png" alt="">
+                <img class="" src="/assets/beckher-kettle-HOT-W20.png" alt="">
             </div>
             <p slot="content" class="mt2 tc">Our own brand of small domestic appliances.</p>
         </card>
-        <card class="mb6" data-image="https://theeta.nl/images/samara-doole-peaTniZsUQs-unsplash.jpg">
+        <card class="mb6" data-image="/assets/sanosil-bg.jpg">
             <div slot="header" class="flex flex-column align-center mv0">
                 <h2 class="title tc">Sanosil</h2>
                 <img class="" src="/assets/Sanosil-Super-25-Ag-5-kg.png" alt="">
@@ -52,7 +44,7 @@ layout: default
         <card class="mb6" data-image="/assets/vineyards.jpg">
             <div slot="header" class="flex flex-column align-center mv0">
                 <h2 class="title tc">Miravento</h2>
-                <img class="" src="/assets/miravento-moscato-bottles.png" alt="">
+                <img class="" src="/assets/miravento-trio.png" alt="">
                 
             </div>
             <p slot="content" class="mt2 tc">Italian Moscato d’Asti, Rosé and Prosecco.</p>
