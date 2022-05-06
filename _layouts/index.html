@@ -61,24 +61,32 @@
             </section>
         </div>
 
-        <section class="">
-            <h2 class="f2 tc serif mt2 o-60 bb bw1 b--light-gray">
+        <section class="mv6">
+            <h2 class="f2 tc serif mt2 o-60 pb5 bb bw1 b--light-gray">
                 Some of our <em>Clients</em>
             </h2>
             <div class="flex flex-column flex-row-l flex-wrap items-center justify-around mb5">
                 {% for image in site.static_files %}
                 {% if image.path contains 'assets/client-logos' %}
-                        <img src="{{image.path}}" class="w-70 w-30-l mv5 mb0-l mh3-l"/>
+                        <img src="{{image.path}}" class="w-70 w-20-l mv5 mb0-l mh3-l"/>
                 {% endif %}
 		    {% endfor %}
             </div>
         </section>
         
-        <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
-        </div>
+        <section class="pb0">
+            <div class="pa1 br3 flex items-center justify-center" style="background-image: url('/assets/abstract-bg-1.jpg');  background-size: cover; height: 200px;";>
+                <h2 class="f-subheadline center tc white shadow">Our Brands</h2>
+                <!-- <div class="bg-white w-80 center w-50-l br3 pa5">
+                    
+                </div> -->
+            </div>
+        </section>
+        <!-- <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
+        </div> -->
         
         
-        <section>
+        <section class="pt0">
             {%- for brand in site.data.brands[page.lang] -%}
         
             <a class="link" href="{{page.lang}}/{{brand.url}}">

@@ -1,18 +1,18 @@
 en: 
   grid-links:
     - label: About us
-      title: Learn more about Theeta
-      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
-      url: 
+      title: Learn about Theeta
+      text: Theeta's work spans multiple sectors of import, distribution and production.
+      url: about
     - label: News
       title: Visit the newsroom
-      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
-      url: 
-    - label: Contact us
+      text: Find important company announcements, press releases, and breaking industry news here.
+      url: news
+    - label: Contact
       title: Collaborate with us
-      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
-      url: 
+      text: We work tirelessly to introduce and promote promising brands in our markets. Need a partner for European distribution? We are here for you.
+      url: contact
     - label: Careers
       title: Work at Theeta
-      text: Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima, enim dolores! Corrupti, est alias, placeat voluptate dicta quo amet ratione doloremque.
-      url: 
+      text: Become part of a fast-moving team and take agency over your work in customer relations, operations, or e-commerce.
+      url: careers

@@ -13,6 +13,8 @@ en:
     links: 
     - name: About
       url: about
+    - name: Clients
+      url: clients
     - name: News
       url: news
     - name: Careers
@@ -45,10 +47,12 @@ nl:
       url: sanosil
     - name: Miravento
       url: miravento
-  - heading: Company
+  - heading: Bedrijf
     links: 
     - name: Over ons
       url: about
+    - name: Clients
+      url: clients
     - name: Nieuws
       url: news
     - name: Carrières
