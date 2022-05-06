@@ -278,7 +278,7 @@ footer .color-logo-secondary {
     text-shadow: rgba(0, 0, 0, 0.3) 0 10px 10px;
   }
 
-@media screen and (max-width: 35em) {
+@media screen and (max-width: 910px) {
 
   /* Grid 2x2 for inline nav links */
   .grid-container-2x2r {
