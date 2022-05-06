@@ -3,11 +3,15 @@ en:
     logo: /assets/beckher-logo-horizontal-gradient-orange.png
     cover: /assets/beckher-bg.jpg
     item: /assets/large charger lamp w floating phone.png
-    intro: Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands, like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors and always aim high.
+    intro: With its own brand and production, Beckher delivers trustworthy small domestic appliances to customers through close partnerships with some of the largest retail stores in Europe. 
     tags: Domestic Appliances, Own brand
     url: beckher
+    text: |
+      **BECKHER is a brand of Theeta B.V.**
+
+      Through close coordination with our manufacturing partners we build high-quality, affordable electric and electronic appliances. Our customers are large and small retail stores in Greece and the rest of Europe, as well as B2B resellers and end-customers purchasing from our Amazon stores.
   - name: Sanosil
-    logo: assets/sanosil_logo.png
+    logo: /assets/sanosil_logo.png
     cover: /assets/sanosil-bg.jpg
     item: /assets/Sanosil-Super-25-Ag-5-kg.png
     intro: The innovative Sanosil chemical disinfectants are highly effective, non-polluting solutions that eradicate microorganisms without affecting the container they clean (active imgredients, H₂O₂ and trace amounts of Ag). Theeta is the exclusive distributor of Sanosil products to businesses in Greece and Cyprus.

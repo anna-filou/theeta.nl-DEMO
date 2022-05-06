@@ -8,6 +8,11 @@ html {
 body {
     font-family: sans-serif;
 }
+
+p {
+  line-height: 1.35;
+}
+
 section {
     max-width: 80rem;
     margin-left: auto;

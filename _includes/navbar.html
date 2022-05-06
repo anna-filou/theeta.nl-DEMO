@@ -8,13 +8,13 @@
           <!-- navlinks.yml -->
             <div class="navbox pv2 ph3 br3 items-center lh-copy justify-center mr2 mr4-l dn flex-ns">
                 {% for brand in site.data.navlinks[page.lang].brands %}
-                <a class="mh1 mh2-l link dim dib {% if page.url contains brand.url %}black bg-light-yellow rounded ph2{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{brand.url}}/">{{brand.title}}
+                <a class="mh1 mh2-l link dim dib {% if page.url contains brand.url %}black b{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{brand.url}}/">{{brand.title}}
                 </a>
                 {% endfor %}
             </div>
             <div class="dn dib-l">
                 {% for navlink in site.data.navlinks[page.lang].navlinks %}
-                <a class="mh2 link dim dib {% if page.url contains navlink.url %}black bg-light-yellow rounded ph2{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
+                <a class="mh2 link dim dib {% if page.url contains navlink.url %}black b bb bw1{% else %}dark-gray{% endif %}" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
                 </a>
             {% endfor %}
             </div>
