@@ -25,9 +25,9 @@ plugins:
 # output: true to render a page for each doc in the collection
 
 # collections:
-#   kitchen:
+#   brands:
 #     output: true
-#     permalink: en/kitchen/:name
+    # permalink: en/kitchen/:name
 
 # Exclude from processing.
 # The following items will not be processed, by default.

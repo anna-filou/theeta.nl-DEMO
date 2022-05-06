@@ -30,30 +30,44 @@ en:
     - name: Theeta B.V. <br>
             Postbus 321, <br>
             3990&nbsp;GC, Houten, NL
-            Theeta B.V.
       url: 
-  footnote: 
+  footnote: 'Privacy Notice: We use [privacy-friendly analytics](https://volument.com/privacy/) to collect anonymous data, like number of visitors. Opt out by blocking third party cookies from your browser’s settings.'
   credits: > 
     3D cards by [Figar Ali](https://codepen.io/figarali) (MIT Licence). 
     Website and Logo by [Anna](https://annafilou.com).
-el: 
+nl: 
   columns:
-  - heading: Group 1
+  - heading: Merken
     links: 
-    - name: Link 1
-      url: products
-    - name: Link 2
-      url: kitchen
-  - heading: Group 2
+    - name: Beckher
+      url: beckher
+    - name: Sanosil
+      url: sanosil
+    - name: Miravento
+      url: miravento
+  - heading: Company
     links: 
-    - name: About
+    - name: Over ons
       url: about
-    - name: unlinked text
-      class: ttn
-  - heading: Legal
+    - name: Nieuws
+      url: news
+    - name: Carrières
+      url: careers
+    - name: Contact
+      url: contact
+  - heading: Kantoor
     links: 
-    - name: Privacy policy
-      url: privacy-policy
-  footnote: 
+    - name: B. Amsterdam <br>
+            763a Johan Huizingalaan,
+            1066&nbsp;VH, Amsterdam,&nbsp;NL
+      url: https://goo.gl/maps/rG7iEz6UKNA3B2iPA
+  - heading: Postbus
+    links: 
+    - name: Theeta B.V. <br>
+            Postbus 321, <br>
+            3990&nbsp;GC, Houten, NL
+      url: 
+  footnote: 'Privacy verklaring: Wij gebruiken [privacy-vriendelijke analytics](https://volument.com/privacy/) om anonieme gegevens te verzamelen, zoals het aantal bezoekers. Opt-out door het blokkeren van cookies van derden in de instellingen van uw browser.'
   credits: > 
-    Credits go to
+    3D kaarten door Figar [Figar Ali](https://codepen.io/figarali) (MIT-licentie). 
+    Website en Logo door [Anna](https://annafilou.com).

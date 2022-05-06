@@ -1,0 +1,18 @@
+---
+layout: default
+---
+{%- for brand in site.data.brands[page.lang] -%}
+
+{%- if brand.name == page.title -%}
+
+<section class="pt3">
+    <h1 class="f-headline mb2">{{brand.name}}</h1>
+    <p class="f3 mb4 serif lh-title black-60">{{brand.intro}}</p>
+    <div class="aspect-ratio aspect-ratio--8x5 mb4">
+        <div class="aspect-ratio--object cover" style="background:url({{brand.cover}}) center;"></div>
+      </div>
+</section>
+        
+{%- endif -%}
+
+{%- endfor -%}  
