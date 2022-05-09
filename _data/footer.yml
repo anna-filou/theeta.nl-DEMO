@@ -24,7 +24,7 @@ en:
   - heading: Office
     links: 
     - name: B. Amsterdam <br>
-            763a Johan Huizingalaan,
+            763a Johan Huizingalaan, <br>
             1066&nbsp;VH, Amsterdam,&nbsp;NL
       url: https://goo.gl/maps/rG7iEz6UKNA3B2iPA
   - heading: P.O. Box
@@ -62,7 +62,7 @@ el:
   - heading: Γραφείο
     links: 
     - name: B. Amsterdam <br>
-            763a Johan Huizingalaan,
+            763a Johan Huizingalaan, <br>
             1066&nbsp;VH, Amsterdam,&nbsp;NL
       url: https://goo.gl/maps/rG7iEz6UKNA3B2iPA
   - heading: Ταχυδρομική θυρίδα
@@ -100,7 +100,7 @@ nl:
   - heading: Kantoor
     links: 
     - name: B. Amsterdam <br>
-            763a Johan Huizingalaan,
+            763a Johan Huizingalaan, <br>
             1066&nbsp;VH, Amsterdam,&nbsp;NL
       url: https://goo.gl/maps/rG7iEz6UKNA3B2iPA
   - heading: Postbus

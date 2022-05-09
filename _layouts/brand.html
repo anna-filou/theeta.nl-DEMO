@@ -7,12 +7,12 @@ layout: default
 
 <section class="bg-beige mt4 pt5 pb6 br4">
     <div class="flex flex-column flex-row-l justify-between-l items-center-l mb5 mb-l">
-        <h1 class="mt0 f-headline mb4 mb0-l color-2">{{brand.name}}</h1>
+        <h1 class="mt0 f1 f-headline-l mb4 mb0-l color-2">{{brand.name}}</h1>
         <div class="w5">
             <img src="{{brand.logo}}" alt="{{brand.name}} logo">
         </div>
     </div>
-    <p class="f3 mb5 serif lh-title black-60">{{brand.intro}}</p>
+    <p class="f4 f3-l mb5 serif lh-title black-60">{{brand.intro}}</p>
     <div class="aspect-ratio aspect-ratio--3x4 aspect-ratio--8x5-l mb4">
         <div class="aspect-ratio--object cover br3 pa5 flex flex-column flex-row-l justify-center justify-end-l" style="background:url({{brand.cover}}) center;">
             <img class="" src="{{brand.item}}" alt="{{brand.name}} product">
@@ -74,7 +74,7 @@ layout: default
 </section>
 
 <section class="">
-    <h1 class="f1 mb4 black-60">{{ site.data.brandpage[page.lang].more-brands.title }}</h1>
+    <h1 class="f3 f1-l mb4 black-60">{{ site.data.brandpage[page.lang].more-brands.title }}</h1>
     <!-- <div class="f4 w-60-m w-40-l lh-copy o-60">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>     -->
     {% include brand-cards.html %}
 </section>
