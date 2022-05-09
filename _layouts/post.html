@@ -1,0 +1,36 @@
+---
+layout: default
+---
+<article>
+    <section class="flex flex-column flex-row-l">
+        <h1 class="f3 f1-l mv0 w-70-l mr3" >{{page.title}}</h1>
+        <div class="gray mt3">
+            <div class="flex items-center mr3 mb2">
+                <svg class="mr2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M17 3h4a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h4V1h2v2h6V1h2v2zm-2 2H9v2H7V5H4v4h16V5h-3v2h-2V5zm5 6H4v8h16v-8zM6 14h2v2H6v-2zm4 0h8v2h-8v-2z"/></svg>
+                <span class="mt1">
+                    {{ page.date | date: "%Y-%m-%d" }}
+                </span>
+            </div>
+            <div class="flex items-center">
+                <svg class="mr2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M17.618 5.968l1.453-1.453 1.414 1.414-1.453 1.453a9 9 0 1 1-1.414-1.414zM12 20a7 7 0 1 0 0-14 7 7 0 0 0 0 14zM11 8h2v6h-2V8zM8 1h8v2H8V1z"/></svg>
+                <span title="Estimated read time" class="mt1">
+                    {% assign words = page.content | number_of_words %}
+                    {% if words < 500 %}
+                        Less than 1 min
+                    {% else %}
+                        {{ words | divided_by:280 }} min
+                    {% endif %}
+                    to read
+                </span>
+            </div>
+        </div>
+    </section>
+    <section class="pv0">
+        <img class="w-100" src="{{page.main-image}}" alt="">
+    </section>
+    <section id="article">
+        <div class="measure-wide center dark-gray">
+            {{content}}
+        </div>
+    </section>
+</article>

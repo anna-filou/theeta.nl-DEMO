@@ -1070,9 +1070,9 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .near-black { color: #111; fill: #111; }
 .dark-gray { color: #333; fill: #333; }
 .mid-gray { color: #555; fill: #555; }
-.gray { color: #777; }
-.silver { color: #999; }
-.light-silver { color: #aaa; }
+.gray { color: #777; fill: #777; }
+.silver { color: #999; fill: #999; }
+.light-silver { color: #aaa; fill: #aaa; }
 .moon-gray { color: #ccc; }
 .light-gray { color: #eee; }
 .near-white { color: #f4f4f4; }
