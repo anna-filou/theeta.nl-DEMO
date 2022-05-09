@@ -1,4 +1,18 @@
 en: 
+  h1: Our <em>Brands</em>
+  subheadline: Theeta consists of subsidiaries working in various sectors of import, export and production.
+  block-2: 
+    title: <em>Ambition</em> lies at the core of what we&nbsp;do
+    text: |
+      **An introduction**
+
+      While Theeta is a young company, it was created and is led by people who have more than 20 years of experience each running successful manufacturing and distribution firms.
+
+      Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands, like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors and always aim high.
+  clients: 
+    title: Some of our <em>Clients</em>
+  brands: 
+    title: Our Brands
   grid-links:
     - label: About us
       title: Learn about Theeta
@@ -15,4 +29,68 @@ en:
     - label: Careers
       title: Work at Theeta
       text: Become part of a fast-moving team and take agency over your work in customer relations, operations, or e-commerce.
+      url: careers
+el: 
+  h1: Τα <em>Μάρκες μας</em>
+  subheadline: Η Theeta αποτελείται από παραρτήματα που δραστηριοποιούνται σε διάφορους τομείς εισαγωγών, εξαγωγών και παραγωγής.
+  block-2: 
+    title: Η <em>φιλοδοξία</em> βρίσκεται στον πυρήνα αυτού που κάνουμε.
+    text: |
+      **Εισαγωγή**
+
+      Αν και η Theeta είναι μια νέα εταιρεία, δημιουργήθηκε και διοικείται από ανθρώπους που έχουν περισσότερα από 20 χρόνια εμπειρίας ο καθένας στη διοίκηση επιτυχημένων επιχειρήσεων παραγωγής και διανομής.
+
+      Μεταξύ της επίβλεψης της παραγωγής της δικής μας μάρκας συσκευών, της Beckher, και της βοήθειας των υφιστάμενων εμπορικών σημάτων, όπως η Sanosil και η Miravento, να επεκταθούν με τη βοήθεια του δικτύου μας, εκμεταλλευόμαστε ευκαιρίες σε πολλούς τομείς και στοχεύουμε πάντα ψηλά.
+  clients: 
+    title: Μερικοί από τους <em>Πελάτες</em> μας
+  brands: 
+    title: Οι μάρκες μας
+  grid-links:
+    - label: Σχετικά με εμάς
+      title: Μάθετε για τη Theeta
+      text: Το έργο της Theeta εκτείνεται σε πολλούς τομείς της εισαγωγής, της διανομής και της παραγωγής.
+      url: about
+    - label: Νέα
+      title: Επισκεφθείτε το newsroom
+      text: Εδώ θα βρείτε σημαντικές ανακοινώσεις της εταιρείας, δελτία τύπου και έκτακτα νέα του κλάδου.
+      url: news
+    - label: Contact
+      title: Collaborate with&nbsp;us
+      text: We work tirelessly to introduce and promote promising brands in our markets. Need a partner for European distribution? We are here for you.
+      url: contact
+    - label: Καριέρα
+      title: Εργασία στη Θέτα
+      text: Γίνετε μέλος μιας ταχέως κινούμενης ομάδας και αναλάβετε την ευθύνη της εργασίας σας στις σχέσεις με τους πελάτες, τις λειτουργίες ή το ηλεκτρονικό εμπόριο.
+      url: careers
+nl: 
+  h1: Onze <em>Merken</em>
+  subheadline: Theeta bestaat uit bijkantoren die werkzaam zijn in verschillende sectoren van invoer, uitvoer en produktie.
+  block-2: 
+    title: <em>Ambitie</em> ligt aan de basis van wat we doen
+    text: |
+      **Een introductie**
+
+      Theeta is een jong bedrijf, maar is opgericht en wordt geleid door mensen die elk meer dan 20 jaar ervaring hebben in het leiden van succesvolle productie- en distributiebedrijven.
+
+      Tussen het toezicht houden op de productie van ons eigen merk Beckher en het helpen uitbreiden van bestaande merken zoals Sanosil en Miravento met behulp van ons netwerk, grijpen we kansen in meerdere sectoren en mikken we altijd hoog.
+  clients: 
+    title: Enkele van onze <em>Klanten</em>
+  brands: 
+    title: Onze merken
+  grid-links:
+    - label: Over ons
+      title: Leer meer over Theeta
+      text: Theeta's werk strekt zich uit over meerdere sectoren van import, distributie en productie.
+      url: about
+    - label: Nieuws
+      title: Bezoek de newsroom
+      text: Hier vindt u belangrijke bedrijfsaankondigingen, persberichten en het laatste nieuws uit de sector.
+      url: news
+    - label: Contact
+      title: Samenwerken met&nbsp;ons
+      text: Wij werken onvermoeibaar aan de introductie en promotie van veelbelovende merken op onze markten. Heeft u een partner nodig voor de Europese distributie? Wij zijn er voor u.
+      url: contact
+    - label: Carrières
+      title: Werken bij Theeta
+      text: Maak deel uit van een snelgroeiend team en neem het agentschap over je werk in klantenrelaties, operations of e-commerce.
       url: careers

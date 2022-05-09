@@ -21,13 +21,16 @@ section {
 }
 
 h1,h2 {
-    font-family: serif;
-    font-weight: 400;
+  font-family: serif;
+  font-weight: 400;
+  margin-bottom: 1 em;
+  margin-top: 2em;
 }
 
 h3,h4,h5,h6 {
   font-weight: 400;
   margin-bottom: 1 em;
+  margin-top: 2em;
 }
 
 footer a {
@@ -304,4 +307,19 @@ footer .color-logo-secondary {
   section {
     padding: 80px 60px;
   }
+}
+
+/* Make the youtube video responsive */
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }

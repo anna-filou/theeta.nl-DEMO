@@ -5,15 +5,15 @@
     </head>
     <body lang="{{page.lang}}" class="">     
         
-
+        {% assign lang = site.data.index[page.lang] %}
 
         <article id="hero" class="bg-hero white">
 
             {% include navbar.html %}
-        
+            
             <section class="pt3 pb6">
-                <h1 class="f1 mb4">Our <em>Brands</em></h1>
-                <div class="f4 w-60-m w-40-l lh-copy o-80">Theeta consists of subsidiaries working in various sectors of import, export and production.</div>    
+                <h1 class="f1 mb4">{{lang.h1}}</h1>
+                <div class="f4 w-60-m w-40-l lh-copy o-80">{{lang.subheadline}}</div>    
                 <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
                 <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
                     <card class="mb6" data-image="/assets/abstract-bg-2.jpg">
@@ -47,23 +47,17 @@
         <div class="bg-beige">
             <section class="pv6 flex flex-column flex-row-l justify-between">
                 <h2 class="f1 serif color-2 w-40-l mt2">
-                    <em>Ambition</em> lies at the core of what we&nbsp;do
+                    {{lang.block-2.title}}
                 </h2>
                 <div class="measure lh-copy">
-                    <h3 class="f5 b">An introduction</h3>
-                    <p>While Theeta is a young company, it was created and is led
-                        by people who have more than 20 years of experience each
-                    running successful manufacturing and distribution firms.</p>
-                    <p>Between overseeing the production of our own brand of appliances, Beckher, and helping existing brands,
-                        like Sanosil and Miravento, expand with the help of our network, we seize opportunities in multiple sectors
-                        and always aim high.</p>
+                    {{lang.block-2.text | markdownify}}
                 </div>
             </section>
         </div>
 
         <section class="mv6">
             <h2 class="f2 tc serif mt2 o-60 pb5 bb bw1 b--light-gray">
-                Some of our <em>Clients</em>
+                {{lang.clients.title}}
             </h2>
             <div class="flex flex-column flex-row-l flex-wrap items-center justify-around mb5">
                 {% for image in site.static_files %}
@@ -75,8 +69,17 @@
         </section>
         
         <section class="pb0">
-            <div class="pa1 br3 flex items-center justify-center" style="background-image: url('/assets/abstract-bg-1.jpg');  background-size: cover; height: 200px;";>
-                <h2 class="f-subheadline center tc white shadow">Our Brands</h2>
+            <div class="pa1 br3 flex items-center justify-center" 
+            style="
+                background:linear-gradient(0deg, rgba(0, 0, 0, 0.3),
+                rgba(0, 0, 0, 0.3)), 
+                url('/assets/abstract-bg-1.jpg');
+                background-size:cover;
+                height: 200px;
+            "
+            
+            >
+                <h2 class="f1 f-subheadline-l center tc white shadow mv0 lh-tight">{{lang.brands.title}}</h2>
                 <!-- <div class="bg-white w-80 center w-50-l br3 pa5">
                     
                 </div> -->

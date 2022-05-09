@@ -51,7 +51,7 @@ nl:
     links: 
     - name: Over ons
       url: about
-    - name: Clients
+    - name: Cliënten
       url: clients
     - name: Nieuws
       url: news

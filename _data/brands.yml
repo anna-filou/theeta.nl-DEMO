@@ -15,12 +15,190 @@ en:
     cover: /assets/sanosil-bg.jpg
     item: /assets/Sanosil-Super-25-Ag-5-kg.png
     intro: The innovative Sanosil chemical disinfectants are highly effective, non-polluting solutions that eradicate microorganisms without affecting the container they clean (active imgredients, H₂O₂ and trace amounts of Ag). Theeta is the exclusive distributor of Sanosil products to businesses in Greece and Cyprus.
-    tags: Dininfectant, H₂O₂, Argentum, hospitals, cooling towers, wastewater
+    tags: Dininfectant, H<sub>2</sub>O<sub>2</sub>, Argentum, hospitals, cooling towers, wastewater
     url: sanosil
+    text: |
+      ## What is it?
+      
+      **Sanosil Super 25** is a highly concentrated long-lasting (2 years) disinfectant. It’s the main product of the Sanosil range with hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) and silver (Ag); the others (S015, S010, S003) being essentially diluted solutions of it for different applications.
+      
+      Sanosil is suitable for **professional users** who know how to dilute it according to the instructions of Sanosil AG.
+
+      ## How does it work?
+
+      1. Oxygen (<sup>1</sup>O<sub>2</sub> / <sup>-</sup>O<sub>2</sub>) released by hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) attacks the cell walls of microorganisms. Oxidation (cold combustion) denatures and destroys them.
+
+      2. The effect is supported by silver (Ag) ions, which enhance the effect of peroxide in a catalytic process. They also inhibit metabolism (where present) and the ability of microbes to multiply.
+
+      **This process can increase the disinfectant effect by up to 800%.**
+
+      After application, hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) is completely decomposed into water (H<sub>2</sub>O) and oxygen (O<sub>2</sub>). The small amounts of silver (Ag) remaining on the surface after peroxide decomposition inhibit microbial proliferation for up to 72 hours.
+    zip: 
+      loc: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+      size: 25 MB
+    docs: 
+      - file: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+        title: Sanosil Super 25
+        type: ZIP με αρχεία PDF
+        description: 'Και οι αραιώσεις του: S015, S010, S003 (Active ingredients: H₂O₂ and Ag)'
+        bg-color: washed-blue
+        text-color: dark-blue
+      - file: /uploads/Sanosil - Ιατρικές εφαρμογές και πληροφορίες από τη Theeta - v3.pdf
+        title: Applications in the Medical Field
+        type: PDF
+        description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
+        bg-color: washed-green
+        text-color: dark-green
+      - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+        title: Applications in Facility Management
+        type: PDF
+        description: Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
+        bg-color: washed-yellow
+        text-color: dark-red
+    youtube: 
+      - id: kxFtVoCbTFY
+        title: Disinfect an entire room with Sanosil Q-Jet Advanced
+      - id: 6dv9BU7zNFs
+        title: Sanosil Q-Jet Advanced
   - name: Miravento
     logo: /assets/logo-miravento-dark.svg
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
-    intro: Starting in 2022, Theeta introduced Cantina Vallebelbo's Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
+    intro: Starting in 2022, Theeta introduced Cantina Vallebelbo’s Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
     tags: moscato d’asti, prosecco, italian wine, white wine
+    url: miravento
+el: 
+  - name: Beckher
+    logo: /assets/beckher-logo-horizontal-gradient-orange.png
+    cover: /assets/abstract-bg-2.jpg
+    item: /assets/beckher-kettle-HOT-W20.png
+    intro: Με τη δική της μάρκα και παραγωγή, η Beckher παρέχει αξιόπιστες μικρές οικιακές συσκευές σε πελάτες μέσω στενών συνεργασιών με ορισμένα από τα μεγαλύτερα καταστήματα λιανικής πώλησης στην Ευρώπη. 
+    tags: Οικιακές συσκευές ιδίας μάρκας
+    url: beckher
+    text: |
+      **Το BECKHER είναι εμπορικό σήμα της Theeta B.V.**
+
+      Μέσω στενού συντονισμού με τους συνεργάτες μας κατασκευάζουμε ηλεκτρικές και ηλεκτρονικές συσκευές υψηλής ποιότητας και προσιτής τιμής. Οι πελάτες μας είναι μεγάλα και μικρά καταστήματα λιανικής πώλησης στην Ελλάδα και την υπόλοιπη Ευρώπη, καθώς και μεταπωλητές B2B και τελικοί πελάτες που αγοράζουν από τα καταστήματά μας στο Amazon.
+  - name: Sanosil
+    logo: /assets/sanosil_logo.png
+    cover: /assets/sanosil-bg.jpg
+    item: /assets/Sanosil-Super-25-Ag-5-kg.png
+    intro: Τα καινοτόμα χημικά απολυμαντικά Sanosil είναι εξαιρετικά αποτελεσματικά, μη ρυπογόνα διαλύματα που εξαλείφουν τους μικροοργανισμούς χωρίς να επηρεάζουν το δοχείο που καθαρίζουν (ενεργά συστατικά, H₂O₂ και ίχνη Ag). Η Theeta είναι ο αποκλειστικός διανομέας των προϊόντων Sanosil σε επιχειρήσεις στην Ελλάδα και την Κύπρο.
+    tags: Απολυμαντικό, H<sub>2</sub>O<sub>2</sub>, ασήμι, νοσοκομεία, πύργοι ψύξης, λύματα
+    url: sanosil
+    text: |
+      ## Τι είναι;
+      
+      Το Sanosil Super 25 είναι ένα υψηλά συμπυκνωμένο απολυμαντικό μακράς διαρκείας (2 χρόνια). Αποτελεί το κύριο προϊόν της σειράς Sanosil με υπεροξείδιο του υδρογόνου (H<sub>2</sub>O<sub>2</sub>) και άργυρο (Ag), καθώς τα υπόλοιπα (S015, S010, S003) είναι ουσιαστικά διαλύσεις του.
+      
+      Το Sanosil είναι κατάλληλο για **επαγγελματίες χρήστες** που γνωρίζουν πώς να το αραιώνουν σύμφωνα με τις οδηγίες της Sanosil AG.
+
+      ## Πώς λειτουργεί;
+
+      1. Το οξυγόνο (<sup>1</sup>O<sub>2</sub> / <sup>-</sup>O<sub>2</sub>) που απελευθερώνεται από το υπεροξείδιο του υδρογόνου (H<sub>2</sub>O<sub>2</sub>) επιτίθεται στα κυτταρικά τοιχώματα των μικροοργανισμών. Η οξείδωση (ψυχρή καύση) τους μετουσιώνει και τους καταστρέφει.
+
+      2. Το αποτέλεσμα υποστηρίζεται από ιόντα αργύρου (Ag), τα οποία ενισχύουν την επίδραση του υπεροξειδίου σε μια καταλυτική διαδικασία. Εμποδίζουν επίσης τον μεταβολισμό (όπου υπάρχει) και την ικανότητα των μικροβίων να πολλαπλασιάζονται.
+
+      **Αυτή η διαδικασία μπορεί να αυξήσει το απολυμαντικό αποτέλεσμα έως και 800%.**
+      
+      Μετά την εφαρμογή, το υπεροξείδιο του υδρογόνου (H<sub>2</sub>O<sub>2</sub>) διασπάται πλήρως σε νερό (H<sub>2</sub>O) και οξυγόνο (O<sub>2</sub>). Οι μικρές ποσότητες αργύρου (Ag) που παραμένουν στην επιφάνεια μετά τη διάσπαση του υπεροξειδίου αναστέλλουν τον πολλαπλασιασμό των μικροβίων για έως και 72 ώρες.
+    zip: 
+      loc: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+      size: 25 MB
+    docs: 
+      - file: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+        title: Sanosil Super 25
+        type: ZIP με αρχεία PDF
+        description: 'Και οι αραιώσεις του: S015, S010, S003 (Active ingredients: H₂O₂ and Ag)'
+        bg-color: washed-blue
+        text-color: dark-blue
+      - file: /uploads/Sanosil - Ιατρικές εφαρμογές και πληροφορίες από τη Theeta - v3.pdf
+        title: Εφαρμογές στον ιατρικό τομέα
+        type: PDF
+        description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
+        bg-color: washed-green
+        text-color: dark-green
+      - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+        title: Εφαρμογές στη διαχείριση εγκαταστάσεων
+        type: PDF
+        description: Συντήρηση κτιρίων / Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
+        bg-color: washed-yellow
+        text-color: dark-red
+    youtube: 
+      - id: kxFtVoCbTFY
+        title: Απολυμάνετε ένα ολόκληρο δωμάτιο με τον νεφελοποιητή Sanosil Q-Jet Advanced
+      - id: 6dv9BU7zNFs
+        title: Sanosil Q-Jet Advanced
+  - name: Miravento
+    logo: /assets/logo-miravento-dark.svg
+    cover: /assets/vineyards.jpg
+    item: /assets/miravento-trio.png
+    intro: Από το 2022, η Theeta εισάγει στην ευρωπαϊκή αγορά τη σειρά κρασιών Miravento της Cantina Vallebelbo. Μια απολαυστική συλλογή από υψηλής ποιότητας ιταλικά αφρώδη κρασιά, κατάλληλα για κάθε περίσταση. Στην επεκτεινόμενη σειρά πρωταγωνιστούν το Moscato d’Asti DOCG, το Moscato Spumante Rosé και το Prosecco DOC.
+    tags: moscato d’asti, prosecco, ιταλικό κρασί, λευκό κρασί
+    url: miravento
+nl: 
+  - name: Beckher
+    logo: /assets/beckher-logo-horizontal-gradient-orange.png
+    cover: /assets/abstract-bg-2.jpg
+    item: /assets/beckher-kettle-HOT-W20.png
+    intro: Met zijn eigen merk en productie levert Beckher betrouwbare kleine huishoudapparaten aan klanten via nauwe partnerschappen met enkele van de grootste detailhandelszaken in Europa. 
+    tags: Huishoudelijke Apparaten, Eigen Merk
+    url: beckher
+    text: |
+      **BECKHER is een merk van Theeta B.V.**
+
+      Door nauwe samenwerking met onze productiepartners bouwen wij elektrische en elektronische apparaten van hoge kwaliteit en betaalbare prijzen. Onze klanten zijn grote en kleine detailhandelszaken in Griekenland en de rest van Europa, maar ook B2B-wederverkopers en eindklanten die via onze Amazon-winkels kopen.
+  - name: Sanosil
+    logo: /assets/sanosil_logo.png
+    cover: /assets/sanosil-bg.jpg
+    item: /assets/Sanosil-Super-25-Ag-5-kg.png
+    intro: De innovatieve chemische ontsmettingsmiddelen van Sanosil zijn uiterst doeltreffende, niet-verontreinigende oplossingen die micro-organismen uitroeien zonder de recipiënt die ze reinigen aan te tasten (actieve bestanddelen, H₂O₂ en sporen van Ag). Theeta is de exclusieve distributeur van Sanosil-producten voor bedrijven in Griekenland en Cyprus.
+    tags: Dininfectans, H<sub>2</sub>O<sub>2</sub>, Argentum, ziekenhuizen, koeltorens, afvalwater
+    url: sanosil
+    text: |
+      ## Wat is het?
+      
+      **Sanosil Super 25** is een sterk geconcentreerd ontsmettingsmiddel met een lange werkingsduur (2 jaar). Het is het hoofdproduct van het Sanosil-gamma met waterstofperoxide (H<sub>2</sub>O<sub>2</sub>) en zilver (Ag); de andere (S015, S010, S003) zijn in wezen verdunde oplossingen ervan voor verschillende toepassingen.
+      
+      Sanosil is geschikt voor **professionele gebruikers** die weten hoe ze het moeten verdunnen volgens de instructies van Sanosil AG.
+
+      ## Hoe werkt het?
+
+      1. De zuurstof (<sup>1</sup>O<sub>2</sub> / <sup>-</sup>O<sub>2</sub>) die vrijkomt bij waterstofperoxide (H<sub>2</sub>O<sub>2</sub>) tast de celwanden van micro-organismen aan. Oxidation (cold combustion) denatures and destroys them.
+
+      2. Dit effect wordt ondersteund door zilverionen (Ag), die het effect van peroxide in een katalytisch proces versterken. Zij remmen ook het metabolisme (waar aanwezig) en het vermogen van microben om zich te vermenigvuldigen.
+
+      **Dit proces kan de desinfecterende werking tot 800% verhogen.**
+
+      Na het aanbrengen wordt waterstofperoxide (H<sub>2</sub>O<sub>2</sub>) volledig afgebroken in water (H<sub>2</sub>O) en zuurstof (O<sub>2</sub>). De kleine hoeveelheden zilver (Ag) die na ontleding met peroxide op het oppervlak achterblijven, remmen de microbiële proliferatie tot 72 uur lang.
+    # docs: 
+    #   - file: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+    #     title: Sanosil Super 25
+    #     type: ZIP με αρχεία PDF
+    #     description: 'Και οι αραιώσεις του: S015, S010, S003 (Active ingredients: H₂O₂ and Ag)'
+    #     bg-color: washed-blue
+    #     text-color: dark-blue
+    #   - file: /uploads/Sanosil - Ιατρικές εφαρμογές και πληροφορίες από τη Theeta - v3.pdf
+    #     title: Applications in the Medical Field
+    #     type: PDF
+    #     description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
+    #     bg-color: washed-green
+    #     text-color: dark-green
+    #   - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+    #     title: Applications in Facility Management
+    #     type: PDF
+    #     description: Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
+    #     bg-color: washed-yellow
+    #     text-color: dark-red
+    youtube: 
+      - id: kxFtVoCbTFY
+        title: Desinfecteer een hele ruimte met de Sanosil Q-Jet Advanced fogger
+      - id: 6dv9BU7zNFs
+        title: Sanosil Q-Jet Advanced
+  - name: Miravento
+    logo: /assets/logo-miravento-dark.svg
+    cover: /assets/vineyards.jpg
+    item: /assets/miravento-trio.png
+    intro: Vanaf 2022 introduceert Theeta de Miravento wijnlijn van Cantina Vallebelbo op de Europese markt. Een verrukkelijke selectie van hoogwaardige Italiaanse mousserende wijnen, geschikt voor elke gelegenheid. Het groeiende assortiment bestaat uit Moscato d’Asti DOCG, Moscato Spumante Rosé, en Prosecco DOC.
+    tags: moscato d’asti, prosecco, italiaanse wijn, witte wijn
     url: miravento
