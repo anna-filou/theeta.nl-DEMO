@@ -14,7 +14,7 @@ Currently, Theeta manufactures electric and electronic appliances, distributes I
 
 We invite you to explore this webpage to find out more about the brand we produce and the ones we distribute. 
 
-**If you need help promoting and distributing your brand’s products in the EU market, send us a note.**
+**We specialize in distribution and are open to new partnerships.**
 
 Our business model is building long-lasting, mutually beneficial relationships with trusted suppliers and distribution partners.
 

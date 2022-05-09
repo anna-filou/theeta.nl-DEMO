@@ -24,7 +24,7 @@ en:
       url: news
     - label: Contact
       title: Collaborate with&nbsp;us
-      text: We work tirelessly to introduce and promote promising brands in our markets. Need a partner for European distribution? We are here for you.
+      text: We pride ourselves in being reliable, long-term suppliers and customers.
       url: contact
     - label: Careers
       title: Work at Theeta
@@ -56,11 +56,11 @@ el:
       url: news
     - label: Επικοινωνία
       title: Συνεργαστείτε μαζί&nbsp;μας
-      text: Εργαζόμαστε ακούραστα για την εισαγωγή και προώθηση υποσχόμενων μαρκών στις αγορές μας. Χρειάζεστε συνεργάτη για ευρωπαϊκή διανομή; Είμαστε εδώ για εσάς.
+      text: Είναι περηφάνια μας να είμαστε αξιόπιστοι, μακροχρόνιοι προμηθευτές και πελάτες.
       url: contact
     - label: Καριέρα
       title: Εργαστείτε στη Theeta
-      text: Γίνετε μέλος μιας ταχέως κινούμενης ομάδας και αναλάβετε την ευθύνη της εργασίας σας στις σχέσεις με τους πελάτες, τις λειτουργίες ή το ηλεκτρονικό εμπόριο.
+      text: Γίνετε μέλος μιας ταχέως κινούμενης ομάδας και εργαστείτε στις σχέσεις με πελάτες, τις επιχειρησιακές λειτουργίες ή το ηλεκτρονικό εμπόριο.
       url: careers
 nl: 
   h1: Onze <em>Merken</em>
@@ -88,7 +88,7 @@ nl:
       url: news
     - label: Contact
       title: Samenwerken met&nbsp;ons
-      text: Wij werken onvermoeibaar aan de introductie en promotie van veelbelovende merken op onze markten. Heeft u een partner nodig voor de Europese distributie? Wij zijn er voor u.
+      text: Wij zijn er trots op dat wij betrouwbare leveranciers en klanten voor de lange termijn zijn.
       url: contact
     - label: Carrières
       title: Werken bij Theeta

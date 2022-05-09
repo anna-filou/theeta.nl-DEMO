@@ -14,7 +14,7 @@ Momenteel produceert Theeta elektrische en elektronische apparaten, distribueert
 
 Wij nodigen u uit deze webpagina te verkennen om meer te weten te komen over de merken die wij produceren en de merken die wij distribueren. 
 
-**Als u hulp nodig heeft bij het promoten en distribueren van de producten van uw merk op de EU-markt, stuur ons dan een bericht.**
+**Wij zijn gespecialiseerd in distributie en staan open voor nieuwe partnerschappen**.
 
 Ons bedrijfsmodel is het opbouwen van langdurige, wederzijds voordelige relaties met vertrouwde leveranciers en distributiepartners.
 
