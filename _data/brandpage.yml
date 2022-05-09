@@ -14,3 +14,11 @@ el:
     title: Δείτε το σε δράση
   more-brands: 
     title: Δείτε περισσότερες από τις <em>Μάρκες</em> μας →
+nl: 
+  docs:
+    title: Verder lezen
+    text: Klik op een blok om de bestanden te downloaden voor offline&nbsp;lectuur
+  videos:
+    title: Bekijk het in actie
+  more-brands: 
+    title: Zie meer van onze <em>Merken</em> →

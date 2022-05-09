@@ -14,31 +14,7 @@
             <section class="pt3 pb6">
                 <h1 class="f1 mb4">{{lang.h1}}</h1>
                 <div class="f4 w-60-m w-40-l lh-copy o-80">{{lang.subheadline}}</div>    
-                <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
-                <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
-                    <card class="mb6" data-image="/assets/abstract-bg-2.jpg">
-                        <div slot="header" class="flex flex-column align-center mv0">
-                            <h2 class="title tc">Beckher</h2>
-                            <img class="" src="/assets/beckher-kettle-HOT-W20.png" alt="">
-                        </div>
-                        <p slot="content" class="mt2 tc">Our own brand of small domestic appliances.</p>
-                    </card>
-                    <card class="mb6" data-image="/assets/sanosil-bg.jpg">
-                        <div slot="header" class="flex flex-column align-center mv0">
-                            <h2 class="title tc">Sanosil</h2>
-                            <img class="" src="/assets/Sanosil-Super-25-Ag-5-kg.png" alt="">
-                        </div>
-                        <p slot="content" class="mt2 tc">Innovative, non-polluting disinfectant</p>
-                    </card>
-                    <card class="mb6" data-image="/assets/vineyards.jpg">
-                        <div slot="header" class="flex flex-column align-center mv0">
-                            <h2 class="title tc">Miravento</h2>
-                            <img class="" src="/assets/miravento-trio.png" alt="">
-                            
-                        </div>
-                        <p slot="content" class="mt2 tc">Italian Moscato d’Asti, Rosé and Prosecco.</p>
-                    </card>
-                </div>
+                {% include brand-cards.html %}
             </section>
         </article>
         
