@@ -1,8 +1,15 @@
 ---
 layout: default
 ---
+
 <section>
-<h1 class="f-subheadline mt0" >All Announcements</h1>
+    <h1 class="f1 mt0">{{ site.data.news[page.lang].title }}</h1>
+    <div class="measure-wide f3 serif lh-copy gray">
+        {{ site.data.news[page.lang].intro }}
+    </div>
+</section>
+
+<section>
 
 {% if site.paginate %}
 {% assign posts = paginator.posts %}
@@ -21,17 +28,17 @@ layout: default
 
     {%- for post in en_posts -%}
 
-    <a class="db no-underline dim near-black main" href="{{ post.url | relative_url }}">
-        <div class="flex flex-column flex-row-ns">
+    <a class="db no-underline dim near-black mb5" href="{{ post.url | relative_url }}">
+        <div class="flex flex-column flex-row-l">
         {%- if post.main-image == empty -%}
-            <div class="w-100 w-70-ns bl bw5 b--dark-green pl4">
+            <!-- <div class="w-100 w-70-l bl bw5 b--dark-green pl4"> -->
         {% else %}          
-            <div class="w-100 w-30-ns mr0 mr5-ns">
+            <div class="w-100 w-30-l mr0 mr5-l">
             <div class="db aspect-ratio aspect-ratio--6x4 ">
                 <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object"></span>
             </div>
             </div>
-            <div class="w-100 w-50-ns">
+            <div class="w-100 w-60-l">
         {%- endif -%}
 
             <h2 class="f3 f2-l mt3 mb2">{{ post.title | escape }}</h2>

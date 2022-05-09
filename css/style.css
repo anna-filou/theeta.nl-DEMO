@@ -107,18 +107,18 @@ a:hover .dib-hover {
 I will add a class to hero section, which the nav is within, and then CSS, if in that class, override colors */
 
 .color-logo-main {
-  fill: black;
+  fill: #71310f;
 }
 
 .color-logo-secondary {
-  fill: #C6C6C6;
+  fill: #cec4bd;
 }
 
 #hero a, #hero {
   color: rgba(255, 255, 255, 0.787);
 }
 .navbox {
-  background: #eee;
+  background: #F5F2F0;
   /* box-shadow: inset 0px 4px 20px rgba(0, 0, 0, 0.2); */
 }
 #hero .navbox {

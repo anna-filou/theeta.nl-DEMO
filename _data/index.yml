@@ -54,12 +54,12 @@ el:
       title: Επισκεφθείτε το newsroom
       text: Εδώ θα βρείτε σημαντικές ανακοινώσεις της εταιρείας, δελτία τύπου και έκτακτα νέα του κλάδου.
       url: news
-    - label: Contact
-      title: Collaborate with&nbsp;us
-      text: We work tirelessly to introduce and promote promising brands in our markets. Need a partner for European distribution? We are here for you.
+    - label: Επικοινωνία
+      title: Συνεργαστείτε μαζί&nbsp;μας
+      text: Εργαζόμαστε ακούραστα για την εισαγωγή και προώθηση υποσχόμενων μαρκών στις αγορές μας. Χρειάζεστε συνεργάτη για ευρωπαϊκή διανομή; Είμαστε εδώ για εσάς.
       url: contact
     - label: Καριέρα
-      title: Εργασία στη Θέτα
+      title: Εργαστείτε στη Theeta
       text: Γίνετε μέλος μιας ταχέως κινούμενης ομάδας και αναλάβετε την ευθύνη της εργασίας σας στις σχέσεις με τους πελάτες, τις λειτουργίες ή το ηλεκτρονικό εμπόριο.
       url: careers
 nl: 

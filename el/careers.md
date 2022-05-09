@@ -1,5 +1,5 @@
 ---
-layout: careers
+layout: measure
 title: Καριέρες
 description: 
 lang: el
