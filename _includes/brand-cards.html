@@ -1,34 +1,14 @@
 <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
 <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
+{% for card in site.data.brands[page.lang] %}
     <a href="/{{page.lang}}/beckher">
-        <card class="mb6" data-image="/assets/abstract-bg-2.jpg">
+        <card class="mb6" data-image="{{card.cover}}">
             <div slot="header" class="flex flex-column align-center mv0">
-                <h2 class="title tc">Beckher</h2>
-                <img class="" src="/assets/beckher-kettle-HOT-W20.png" alt="">
+                <h2 class="title tc">{{card.name}}</h2>
+                <img class="" src="{{card.item}}" alt="">
             </div>
-            <p slot="content" class="mt2 tc">Our own brand of small domestic appliances.</p>
+            <p slot="content" class="mt2 tc">{{card.card-text}}</p>
         </card>
     </a>
-
-    <a href="/{{page.lang}}/sanosil">
-        <card class="mb6" data-image="/assets/sanosil-bg.jpg">
-            <div slot="header" class="flex flex-column align-center mv0">
-                <h2 class="title tc">Sanosil</h2>
-                <img class="" src="/assets/Sanosil-Super-25-Ag-5-kg.png" alt="">
-            </div>
-            <p slot="content" class="mt2 tc">Innovative, non-polluting disinfectant</p>
-        </card>
-    </a>
-
-
-    <a href="/{{page.lang}}/miravento">
-        <card class="mb6" data-image="/assets/vineyards.jpg">
-            <div slot="header" class="flex flex-column align-center mv0">
-                <h2 class="title tc">Miravento</h2>
-                <img class="" src="/assets/miravento-trio.png" alt="">
-                
-            </div>
-            <p slot="content" class="mt2 tc">Italian Moscato d’Asti, Rosé and Prosecco.</p>
-        </card>
-    </a>
+{% endfor %}
 </div>

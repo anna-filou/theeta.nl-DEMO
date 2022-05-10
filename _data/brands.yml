@@ -4,6 +4,7 @@ en:
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
     intro: With its own brand and production, Beckher delivers trustworthy small domestic appliances to customers through close partnerships with some of the largest retail stores in Europe. 
+    card-text: Our own brand of small domestic appliances.
     tags: Domestic Appliances, Own brand
     url: beckher
     text: |
@@ -15,6 +16,7 @@ en:
     cover: /assets/sanosil-bg.jpg
     item: /assets/Sanosil-Super-25-Ag-5-kg.png
     intro: The innovative Sanosil chemical disinfectants are highly effective, non-polluting solutions that eradicate microorganisms without affecting the container they clean (active imgredients, H₂O₂ and trace amounts of Ag). Theeta is the exclusive distributor of Sanosil products to businesses in Greece and Cyprus.
+    card-text: Innovative, non-polluting disinfectant
     tags: Dininfectant, H<sub>2</sub>O<sub>2</sub>, Argentum, hospitals, cooling towers, wastewater
     url: sanosil
     text: |
@@ -83,6 +85,7 @@ en:
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
     intro: Starting in 2022, Theeta introduced Cantina Vallebelbo’s Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
+    card-text: Italian Moscato d’Asti, Rosé and Prosecco.
     tags: moscato d’asti, prosecco, italian wine, white wine
     url: miravento
     text: | 
@@ -134,6 +137,7 @@ el:
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
     intro: Με τη δική της μάρκα και παραγωγή, η Beckher παρέχει αξιόπιστες μικρές οικιακές συσκευές σε πελάτες μέσω στενών συνεργασιών με ορισμένα από τα μεγαλύτερα καταστήματα λιανικής πώλησης στην Ευρώπη. 
+    card-text: Η δική μας μάρκα μικρών οικιακών συσκευών
     tags: Οικιακές συσκευές ιδίας μάρκας
     url: beckher
     text: |
@@ -145,6 +149,7 @@ el:
     cover: /assets/sanosil-bg.jpg
     item: /assets/Sanosil-Super-25-Ag-5-kg.png
     intro: Τα καινοτόμα χημικά απολυμαντικά Sanosil είναι εξαιρετικά αποτελεσματικά, μη ρυπογόνα διαλύματα που εξαλείφουν τους μικροοργανισμούς χωρίς να επηρεάζουν το δοχείο που καθαρίζουν (ενεργά συστατικά, H₂O₂ και ίχνη Ag). Η Theeta είναι ο αποκλειστικός διανομέας των προϊόντων Sanosil σε επιχειρήσεις στην Ελλάδα και την Κύπρο.
+    card-text: Καινοτόμο, μη ρυπογόνο απολυμαντικό
     tags: Απολυμαντικό, H<sub>2</sub>O<sub>2</sub>, ασήμι, νοσοκομεία, πύργοι ψύξης, λύματα
     url: sanosil
     text: |
@@ -213,6 +218,7 @@ el:
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
     intro: Από το 2022, η Theeta εισάγει στην ευρωπαϊκή αγορά τη σειρά κρασιών Miravento της Cantina Vallebelbo. Μια απολαυστική συλλογή από υψηλής ποιότητας ιταλικά αφρώδη κρασιά, κατάλληλα για κάθε περίσταση. Στην επεκτεινόμενη σειρά πρωταγωνιστούν το Moscato d’Asti DOCG, το Moscato Spumante Rosé και το Prosecco DOC.
+    card-text: Ιταλικό Moscato d’Asti, Rosé και Prosecco
     tags: moscato d’asti, prosecco, ιταλικό κρασί, λευκό κρασί
     url: miravento
     text: | 
@@ -272,6 +278,7 @@ nl:
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
     intro: Met zijn eigen merk en productie levert Beckher betrouwbare kleine huishoudapparaten aan klanten via nauwe partnerschappen met enkele van de grootste detailhandelszaken in Europa. 
+    card-text: Ons eigen merk van kleine huishoudelijke apparaten
     tags: Huishoudelijke Apparaten, Eigen Merk
     url: beckher
     text: |
@@ -282,6 +289,7 @@ nl:
     logo: /assets/sanosil_logo.png
     cover: /assets/sanosil-bg.jpg
     item: /assets/Sanosil-Super-25-Ag-5-kg.png
+    card-text: Innovatief, niet-vervuilend ontsmettingsmiddel
     intro: De innovatieve chemische ontsmettingsmiddelen van Sanosil zijn uiterst doeltreffende, niet-verontreinigende oplossingen die micro-organismen uitroeien zonder de recipiënt die ze reinigen aan te tasten (actieve bestanddelen, H₂O₂ en sporen van Ag). Theeta is de exclusieve distributeur van Sanosil-producten voor bedrijven in Griekenland en Cyprus.
     tags: Dininfectans, H<sub>2</sub>O<sub>2</sub>, Argentum, ziekenhuizen, koeltorens, afvalwater
     url: sanosil
@@ -348,6 +356,7 @@ nl:
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
     intro: Vanaf 2022 introduceert Theeta de Miravento wijnlijn van Cantina Vallebelbo op de Europese markt. Een verrukkelijke selectie van hoogwaardige Italiaanse mousserende wijnen, geschikt voor elke gelegenheid. Het groeiende assortiment bestaat uit Moscato d’Asti DOCG, Moscato Spumante Rosé, en Prosecco DOC.
+    card-text: Italiaanse Moscato d’Asti, Rosé en Prosecco 
     tags: moscato d’asti, prosecco, italiaanse wijn, witte wijn
     url: miravento
     text: | 
