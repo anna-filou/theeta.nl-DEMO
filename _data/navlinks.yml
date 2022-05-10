@@ -39,6 +39,17 @@ nl:
       url: clients
     - title: Nieuws
       url: news
+  company: 
+    - title: Over ons
+      url: about
+    - title: Cliënten
+      url: clients
+    - title: Nieuws
+      url: news
+    - title: Carrières
+      url: careers
+    - title: Contact
+      url: contact
 el: 
   brands:
     - title: Beckher
@@ -54,3 +65,14 @@ el:
       url: clients
     - title: Νέα
       url: news
+  company: 
+    - title: Εταιρεία
+      url: about
+    - title: Πελάτες
+      url: clients
+    - title: Νέα
+      url: news
+    - title: Καριέρα
+      url: careers
+    - title: Επικοινωνία
+      url: contact
