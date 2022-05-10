@@ -10,13 +10,13 @@
         <meta property="og:type" content="website">
         <meta property="og:title" content="{{ site.title }} | {{ page.title }}">
         <meta property="og:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-        <meta property="og:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% endif %}{% else %}/meta-image.jpg{% endif %}">
+        <meta property="og:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% else %}/meta-image.jpg{% endif %}{% endif %}">
 
         <!-- Twitter -->
         <meta property="twitter:card" content="summary_large_image">
         <meta property="twitter:title" content="{{ site.title }} | {{ page.title }}">
         <meta property="twitter:description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
-        <meta property="twitter:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% endif %}{% else %}/meta-image.jpg{% endif %}">
+        <meta property="twitter:image" content="{% if page.meta-image %}{{page.meta-image}}{% else %}{% if page.image %}{{page.image}}{% else %}/meta-image.jpg{% endif %}{% endif %}">
 
         <!-- Favicon -->
         <link href="/favicon.svg?2" rel="icon" type="image/svg+xml">
