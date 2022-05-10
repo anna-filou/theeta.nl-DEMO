@@ -84,6 +84,7 @@ input, textarea {
   background: #ffffff;
   border-radius: 3px;
   border: 1px solid #d8d1ca;
+  text-decoration: none;
 
   letter-spacing: 0.08em;
   font-size: 0.9em;
