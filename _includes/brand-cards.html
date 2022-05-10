@@ -1,7 +1,7 @@
 <!-- CREDIT: Figar Ali https://codepen.io/figarali -->
 <div id="app" class="mt5 flex flex-column items-center flex-row-l justify-between-l">
 {% for card in site.data.brands[page.lang] %}
-    <a href="/{{page.lang}}/beckher">
+    <a href="/{{page.lang}}/{{card.url}}">
         <card class="mb6" data-image="{{card.cover}}">
             <div slot="header" class="flex flex-column align-center mv0">
                 <h2 class="title tc">{{card.name}}</h2>
