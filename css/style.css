@@ -51,6 +51,57 @@ footer p {
 
 /* {% include nav-mobile.css %} */
 
+.label, label, form label {
+  font-family: monospace;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0 0 10px 0;
+}
+
+input, textarea {
+  background: #f9f7f5;
+  border: 1px solid #d8d1ca;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 12px;
+  margin: 0 0 20px 0;
+  align-self: stretch;
+}
+
+.button, button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1em 2.2em 1em 2.8em;
+  background: #ffffff;
+  border-radius: 3px;
+  border: 1px solid #d8d1ca;
+
+  letter-spacing: 0.08em;
+  font-size: 0.9em;
+  text-transform: uppercase;
+  color: #000000;
+  fill: #959595;
+  transition: all 0.3s;
+
+}
+
+.button:after {
+  background: url();
+}
+
+.button:hover,button:hover {
+  background: #f9f7f5;
+  color: #AC4550;
+  letter-spacing: 0.07em;
+  font-weight: bold;
+  cursor: pointer;
+}
+
 /* Extra colors */
 .color-1 {color: #52737E; fill: #52737E;}
 .bg-color-1 {background-color: #52737E;}

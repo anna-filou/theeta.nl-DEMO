@@ -1,0 +1,112 @@
+en: 
+  title: Contact
+  text: | 
+    Email us at **[info@theeta.nl](mailto:info@theeta.nl)** for more information and collaboration opportunities.
+
+    Our employees have more than 15 years of experience in market research, operations and everything that comes with running successful manufacturing and distribution businesses.
+
+    **We'd love to talk.**
+
+
+    ## Company Information
+
+    Theeta B.V.
+
+    763a Johan Huizingalaan  
+    1066 VH, Amsterdam  
+    Netherlands
+
+    KvK 74961470  
+
+    NL860088492B01  
+    EL996796293  
+    DE350191682  
+
+    ## P.O. Box
+    Theeta B.V.
+
+    Postbus 321  
+    3990 GC, Houten  
+    Netherlands  
+  form: 
+    name: Full Name
+    email: Email Address
+    company: Company Name
+    phone: Phone Number (Optional)
+    message: Your Message
+    send: Submit
+el: 
+  title: Επικοινωνία
+  text: | 
+    Στείλτε μας ένα email στο **[info@theeta.nl](mailto:info@theeta.nl)** για περισσότερες πληροφορίες και ευκαιρίες συνεργασίας.
+
+    Οι υπάλληλοί μας έχουν περισσότερα από 15 χρόνια εμπειρίας στην έρευνα αγοράς, στις λειτουργικές διαδικασίες και σε ό,τι συνεπάγεται η λειτουργία επιτυχημένων επιχειρήσεων παραγωγής και διανομής.
+
+    **Θα θέλαμε πολύ να μιλήσουμε**.
+
+
+    ## Στοιχεία εταιρείας
+
+    Theeta B.V.
+
+    763a Johan Huizingalaan  
+    1066 VH, Άμστερνταμ  
+    Ολλανδία
+
+    KvK 74961470  
+
+    NL86008849492B01  
+    EL996796293  
+    DE350191682  
+
+
+    ## Ταχυδρομική θυρίδα
+    Theeta B.V.
+
+    Postbus 321  
+    3990 GC, Houten  
+    Ολλανδία  
+  form: 
+    name: Ονοματεπώνυμο
+    email: Διεύθυνση e-mail
+    company: Όνομα εταιρείας
+    phone: Αριθμός τηλεφώνου (Προαιρετικά)
+    message: Το μήνυμά σας
+    send: Υποβολή
+nl: 
+  title: Neem contact op met
+  text: | 
+    Email ons op **[info@theeta.nl](mailto:info@theeta.nl)** voor meer informatie en samenwerkingsmogelijkheden.
+
+    Onze medewerkers hebben meer dan 15 jaar ervaring in marktonderzoek, operations en alles wat komt kijken bij het runnen van succesvolle productie- en distributiebedrijven.
+
+    **We willen graag praten.**
+
+
+    ## Bedrijfsinformatie
+
+    Theeta B.V.
+
+    763a Johan Huizingalaan  
+    1066 VH, Amsterdam  
+
+    KvK 74961470  
+
+    NL860088492B01  
+    EL996796293  
+    DE350191682  
+
+
+    ## Postbus
+
+    Theeta B.V.
+
+    Postbus 321  
+    3990 GC, Houten  
+  form: 
+    name: Volledige naam
+    email: Email Adres
+    company: Bedrijfsnaam
+    phone: Telefoonnummer (Optioneel)
+    message: Uw bericht
+    send: Verzenden

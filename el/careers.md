@@ -5,3 +5,5 @@ description:
 lang: el
 ref: careers
 ---
+
+{{ site.data.careers[page.lang] }}

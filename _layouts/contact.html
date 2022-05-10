@@ -1,4 +1,33 @@
 ---
 layout: default
 ---
-contact
+{% assign lang = site.data.contact[page.lang] %}
+
+<section class="flex flex-column flex-row-l">
+    <div class="w-50">
+        <h2 class="mt0 mb4 f1">{{lang.title}}</h2>
+        <div class="lh-copy dark-gray measure pr4">
+            {{lang.text | markdownify}}
+        </div>
+    </div>
+
+    <form class="w-50 flex flex-column" action="/{{page.lang}}/success" method="POST" name="Contact Form" netlify>
+        <label for="name" class="label mt2 mb2">{{lang.form.name}}</label>
+        <input required type="text" name="Name" id="name" class="mb3">
+
+        <label for="email" class="label mt2 mb2">{{lang.form.email}}</label>
+        <input required id="email" type="email" name="_replyto" class="mb3">
+
+        <label for="company" class="label mt2 mb2">{{lang.form.company}}</label>
+        <input required type="text" name="company" id="company" class="mb3">
+
+        <label for="tel" class="label mt2 mb2">{{lang.form.phone}}</label>
+        <input type="tel" name="tel" id="tel" class="mb3">
+
+        <label for="message" class="label mt2 mb2">{{lang.form.message}}</label>
+        <textarea required name="message" class="h5 mb3"></textarea>
+        <button action="submit" class="mt3">
+        {{lang.form.send}}
+        </button>
+    </form>
+</section>
