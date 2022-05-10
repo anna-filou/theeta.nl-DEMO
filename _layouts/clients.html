@@ -12,8 +12,8 @@ layout: default
     </div>
     <div class="flex flex-column flex-row-l flex-wrap items-center items-top-l justify-around mb5 nl4 nr4">
         {% for client in site.data.clients[page.lang].clients %}
-            <div class="w-50 w-20-l mv5 mv0-l mh0 mh3-l">
-                <div class="h4 mb4 flex items-center justify-center">
+            <div class="w-50 w-20-l mb6 mt0-l mb4-l mh0 mh3-l">
+                <div class="h4 mb3 flex items-center justify-center">
                     <img class="max-h-100" src="{{client.logo}}" alt="{{client.image}} logo"/>
                 </div>
                 <div class="label f6 tc">{{client.name}}</div>
@@ -31,8 +31,8 @@ layout: default
     </div>
     <div class="flex flex-column flex-row-l flex-wrap items-center items-top-l justify-around mb5 nl4 nr4">
         {% for retailer in site.data.clients[page.lang].retailers %}
-            <a href="{{retailer.url}}" class="no-underline dark-gray grow w-50 w-20-l mv5 mv0-l mh0 mh3-l">
-                <div class="h4 mb4 flex items-center items-center justify-center">
+            <a href="{{retailer.url}}" class="no-underline dark-gray grow w-50 w-20-l mb6 mt0-l mb4-l mh0 mh3-l">
+                <div class="h4 mb3 flex items-center items-center justify-center">
                     <img class="max-h-100" src="{{retailer.logo}}" alt="{{retailer.image}} logo"/>
                 </div>
                 <div class="label tc f6">{{retailer.name}}</div>

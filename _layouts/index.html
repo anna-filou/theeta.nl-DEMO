@@ -31,16 +31,19 @@
             </section>
         </div>
 
-        <section class="mv6">
+        <section class="mt6">
             <h2 class="f2 tc serif mt2 o-60 pb5 bb bw1 b--light-gray">
                 {{lang.clients.title}}
             </h2>
-            <div class="flex flex-column flex-row-l flex-wrap items-center justify-around mb5">
-                {% for image in site.static_files %}
-                {% if image.path contains 'assets/client-logos' %}
-                        <img src="{{image.path}}" class="w-70 w-20-l mv5 mb0-l mh3-l"/>
-                {% endif %}
-		    {% endfor %}
+            <div class="flex flex-column flex-row-l flex-wrap items-center items-top-l justify-around mb5 nl4 nr4">
+                {% for client in site.data.clients[page.lang].clients %}
+                    <div class="w-50 w-20-l mb6 mt0-l mb4-l mh0 mh3-l">
+                        <div class="h4 mb3 flex items-center justify-center">
+                            <img class="max-h-100" src="{{client.logo}}" alt="{{client.image}} logo"/>
+                        </div>
+                        <div class="label f6 tc">{{client.name}}</div>
+                    </div>
+                {% endfor %}
             </div>
         </section>
         

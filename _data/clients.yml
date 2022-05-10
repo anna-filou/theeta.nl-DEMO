@@ -14,6 +14,9 @@ en:
     - name: University of West Attica
       logo: /assets/client-logos/logo-uniwa.png
       url: 
+    - name: Cava Nektar
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
   retailers-title: Where to buy our products
   retailers-text: The expansion of our direct distribution network is our most recent project. Some of our products are already available on Bol.com and in major Greek retail stores. 
   retailers: 
@@ -42,6 +45,9 @@ el:
     - name: Πανεπιστήμιο Δυτικής Αττικής
       logo: /assets/client-logos/logo-uniwa.png
       url: 
+    - name: Κάβα Νέκταρ
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
   retailers-title: Πού μπορείτε να αγοράσετε τα προϊόντα μας
   retailers-text: Η επέκταση του δικτύου άμεσης διανομής μας είναι το πιο πρόσφατο έργο μας. Ορισμένα από τα προϊόντα μας είναι ήδη διαθέσιμα στο Bol.com (Ολλανδία) και σε μεγάλα ελληνικά καταστήματα λιανικής πώλησης.
   retailers: 
@@ -70,6 +76,9 @@ nl:
     - name: Universiteit van West Attica
       logo: /assets/client-logos/logo-uniwa.png
       url: 
+    - name: Cava Nektar
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
   retailers-title: Waar kunt u onze producten kopen?
   retailers-text: De uitbreiding van ons directe distributienetwerk is ons meest recente project. Sommige van onze producten zijn al verkrijgbaar op Bol.com en in grote Griekse detailhandelszaken. 
   retailers: 
