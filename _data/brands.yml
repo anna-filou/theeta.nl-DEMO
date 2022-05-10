@@ -3,14 +3,14 @@ en:
     logo: /assets/beckher-logo-horizontal-gradient-orange.png
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
-    intro: With its own brand and production, Beckher delivers trustworthy small domestic appliances to customers through close partnerships with some of the largest retail stores in Europe. 
+    intro: With our own brand and production, we provide reliable small domestic appliances to tens of thousands of customers through close partnerships with some of the largest retailers in Europe.
     card-text: Our own brand of small domestic appliances.
     tags: Domestic Appliances, Own brand
     url: beckher
     text: |
       **BECKHER is a brand of Theeta B.V.**
 
-      Through close coordination with our manufacturing partners we build high-quality, affordable electric and electronic appliances. Our customers are large and small retail stores in Greece and the rest of Europe, as well as B2B resellers and end-customers purchasing from our Amazon stores.
+      Through close coordination with our production partners, we manufacture electrical and electronic devices of quality and affordability. Our customers are large and small retailers in Greece and the rest of Europe, as well as B2B resellers and end customers who buy from online marketplaces where we are present.
   - name: Sanosil
     logo: /assets/sanosil_logo.png
     cover: /assets/sanosil-bg.jpg
@@ -84,7 +84,7 @@ en:
     logo: /assets/logo-miravento-dark.svg
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
-    intro: Starting in 2022, Theeta introduced Cantina Vallebelbo’s Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
+    intro: In 2022, Theeta introduced Cantina Vallebelbo’s Miravento Line of wines to the European market. A delightful selection of high-quality Italian sparkling wines, appropriate for any occasion. The expanding range stars Moscato d’Asti DOCG, Moscato Spumante Rosé, and Prosecco DOC.
     card-text: Italian Moscato d’Asti, Rosé and Prosecco.
     tags: moscato d’asti, prosecco, italian wine, white wine
     url: miravento
@@ -103,9 +103,9 @@ en:
       **Production area**: Piedmont  
       **Grape variety**: Muscat
 
-      - Straw yellow with a fine colour and a persistent natural coating.
+      - Fine, straw yellow colour and a persistent natural coating.
       - Slightly sweet, aromatic and characteristic taste.
-      - Ideal accompaniment for all desserts and especially for dried biscuits, nougat and fruit salads.
+      - Ideal accompaniment for all desserts and especially dry biscuits, nougat and fruit salads.
       - 8–10 °C / 750 ml / 5,5% Vol
 
       
@@ -117,10 +117,10 @@ en:
       **Production area**: Piedmont  
       **Grape variety**: Muscat
 
-      - Light pink colour with bright reflections and a fine and persistent sparkling.
-      - Intense, fresh and floral aroma.
+      - Light pink colour with bright reflections and a fine and persistent perlage.
+      - Intense, fresh, floral aroma.
       - Characteristic, sweet, velvety taste.
-      - Delicious with unstuffed desserts, pastries, filled tarts.
+      - Delicious with unstuffed desserts, pastries, and tarts with filling.
       - 6–8°C / 750 ml / 6,5% Vol
 
       ## Prosecco DOC — **New & Exclusive**
@@ -128,22 +128,22 @@ en:
 
       ![](/assets/miravento-prosecco.jpg)
 
-      Prosecco DOC joins the Miravento range on request from Theeta and comes to complete the range by offering a dry option.
+      Prosecco DOC joins the Miravento range on request by Theeta and comes to complete the range by offering an option for lovers of *dry* wine.
 
-      **Soon to be available in stores in Greece.**
+      **Available soon in Greek stores.**
 el: 
   - name: Beckher
     logo: /assets/beckher-logo-horizontal-gradient-orange.png
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
-    intro: Με τη δική της μάρκα και παραγωγή, η Beckher παρέχει αξιόπιστες μικρές οικιακές συσκευές σε πελάτες μέσω στενών συνεργασιών με ορισμένα από τα μεγαλύτερα καταστήματα λιανικής πώλησης στην Ευρώπη. 
+    intro: Με τη δική μας μάρκα και παραγωγή, παρέχουμε αξιόπιστες μικρές οικιακές συσκευές σε δεκάδες χιλιάδες πελάτες μέσω στενών συνεργασιών με ορισμένα από τα μεγαλύτερα καταστήματα λιανικής στην Ευρώπη.
     card-text: Η δική μας μάρκα μικρών οικιακών συσκευών
     tags: Οικιακές συσκευές ιδίας μάρκας
     url: beckher
     text: |
-      **Το BECKHER είναι εμπορικό σήμα της Theeta B.V.**
+      **Η BECKHER είναι εμπορικό σήμα της Theeta B.V.**
 
-      Μέσω στενού συντονισμού με τους συνεργάτες μας κατασκευάζουμε ηλεκτρικές και ηλεκτρονικές συσκευές υψηλής ποιότητας και προσιτής τιμής. Οι πελάτες μας είναι μεγάλα και μικρά καταστήματα λιανικής πώλησης στην Ελλάδα και την υπόλοιπη Ευρώπη, καθώς και μεταπωλητές B2B και τελικοί πελάτες που αγοράζουν από τα καταστήματά μας στο Amazon.
+      Μέσω στενού συντονισμού με τους συνεργάτες μας στην παραγωγή, κατασκευάζουμε ηλεκτρικές και ηλεκτρονικές συσκευές ποιότητας και προσιτής τιμής. Οι πελάτες μας είναι μεγάλα και μικρά καταστήματα λιανικής πώλησης στην Ελλάδα και την υπόλοιπη Ευρώπη, καθώς και μεταπωλητές B2B και τελικοί πελάτες που αγοράζουν από τα online marketplaces όπου έχουμε παρουσία.
   - name: Sanosil
     logo: /assets/sanosil_logo.png
     cover: /assets/sanosil-bg.jpg
@@ -277,14 +277,14 @@ nl:
     logo: /assets/beckher-logo-horizontal-gradient-orange.png
     cover: /assets/abstract-bg-2.jpg
     item: /assets/beckher-kettle-HOT-W20.png
-    intro: Met zijn eigen merk en productie levert Beckher betrouwbare kleine huishoudapparaten aan klanten via nauwe partnerschappen met enkele van de grootste detailhandelszaken in Europa. 
+    intro: Met ons eigen merk en onze eigen productie leveren wij betrouwbare kleine huishoudelijke apparaten aan tienduizenden klanten via nauwe samenwerkingsverbanden met enkele van de grootste detailhandelaren in Europa.
     card-text: Ons eigen merk van kleine huishoudelijke apparaten
     tags: Huishoudelijke Apparaten, Eigen Merk
     url: beckher
     text: |
       **BECKHER is een merk van Theeta B.V.**
 
-      Door nauwe samenwerking met onze productiepartners bouwen wij elektrische en elektronische apparaten van hoge kwaliteit en betaalbare prijzen. Onze klanten zijn grote en kleine detailhandelszaken in Griekenland en de rest van Europa, maar ook B2B-wederverkopers en eindklanten die via onze Amazon-winkels kopen.
+      Door nauwe coördinatie met onze productiepartners produceren wij elektrische en elektronische apparaten van kwaliteit en betaalbaarheid. Onze klanten zijn grote en kleine detailhandelaren in Griekenland en de rest van Europa, maar ook B2B-wederverkopers en eindklanten die kopen op de online marktplaatsen waar wij aanwezig zijn.
   - name: Sanosil
     logo: /assets/sanosil_logo.png
     cover: /assets/sanosil-bg.jpg
@@ -355,7 +355,7 @@ nl:
     logo: /assets/logo-miravento-dark.svg
     cover: /assets/vineyards.jpg
     item: /assets/miravento-trio.png
-    intro: Vanaf 2022 introduceert Theeta de Miravento wijnlijn van Cantina Vallebelbo op de Europese markt. Een verrukkelijke selectie van hoogwaardige Italiaanse mousserende wijnen, geschikt voor elke gelegenheid. Het groeiende assortiment bestaat uit Moscato d’Asti DOCG, Moscato Spumante Rosé, en Prosecco DOC.
+    intro: In 2022 heeft Theeta de Miravento-wijnlijn van Cantina Vallebelbo op de Europese markt gebracht. Een verrukkelijke selectie van hoogwaardige Italiaanse mousserende wijnen, geschikt voor elke gelegenheid. Het groeiende assortiment bestaat uit Moscato d’Asti DOCG, Moscato Spumante Rosé, en Prosecco DOC.
     card-text: Italiaanse Moscato d’Asti, Rosé en Prosecco 
     tags: moscato d’asti, prosecco, italiaanse wijn, witte wijn
     url: miravento
@@ -374,9 +374,9 @@ nl:
           **Productiegebied**: Piedmont  
           **Druivenras**: Muskaat
 
-          - Strogeel met een fijne kleur en een hardnekkige natuurlijke coating.
+          - Fijne, strogele kleur en een persistente natuurlijke coating.
           - Lichtzoete, aromatische en karakteristieke smaak.
-          - Ideaal bij alle desserts en vooral bij gedroogde koekjes, noga en fruitsalades.
+          - Ideaal bij alle desserts en vooral bij droge koekjes, nougat en fruitsalades.
           - 8–10 °C / 750 ml / 5,5% Vol
 
           
@@ -399,6 +399,6 @@ nl:
 
           ![](/assets/miravento-prosecco.jpg)
 
-          Prosecco DOC voegt zich op verzoek van Theeta bij het Miravento-gamma en maakt het gamma compleet door een droge optie aan te bieden.
+          Prosecco DOC voegt zich op verzoek van Theeta bij het Miravento-assortiment en maakt het aanbod compleet door een optie te bieden voor liefhebbers van *droge* wijn.
 
           **Binnenkort verkrijgbaar in de winkels in Griekenland.**
