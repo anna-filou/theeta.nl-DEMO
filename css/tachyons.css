@@ -1073,10 +1073,10 @@ code, .code { font-family: Consolas, monaco, monospace; }
 .gray { color: #777; fill: #777; }
 .silver { color: #999; fill: #999; }
 .light-silver { color: #aaa; fill: #aaa; }
-.moon-gray { color: #ccc; }
-.light-gray { color: #eee; }
-.near-white { color: #f4f4f4; }
-.white { color: #fff; }
+.moon-gray { color: #ccc; fill: #ccc; }
+.light-gray { color: #eee; fill: #eee; }
+.near-white { color: #f4f4f4; fill: #f4f4f4; }
+.white { color: #fff; fill: #fff; }
 .dark-red { color: #e7040f; fill: #e7040f; }
 .red { color: #ff4136; fill: #ff4136; }
 .light-red { color: #ff725c; fill: #ff725c; }
