@@ -4,14 +4,14 @@ layout: default
 {% assign lang = site.data.contact[page.lang] %}
 
 <section class="flex flex-column flex-row-l">
-    <div class="w-50">
+    <div class="w-50-l mb6 mb0-l">
         <h2 class="mt0 mb4 f1">{{lang.title}}</h2>
-        <div class="lh-copy dark-gray measure pr4">
+        <div class="lh-copy dark-gray measure pr4-l">
             {{lang.text | markdownify}}
         </div>
     </div>
 
-    <form class="w-50 flex flex-column" action="/{{page.lang}}/success" method="POST" name="Contact Form" netlify>
+    <form class="w-50-l flex flex-column" action="/{{page.lang}}/success" method="POST" name="Contact Form" netlify>
         <label for="name" class="label mt2 mb2">{{lang.form.name}}</label>
         <input required type="text" name="Name" id="name" class="mb3">
 
