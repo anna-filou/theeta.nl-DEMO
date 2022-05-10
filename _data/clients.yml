@@ -1,0 +1,84 @@
+en: 
+  clients-title: Clients
+  clients-text: We invest heavily in developing long-term partnerships with our clients. These are some of the connections that we've built over&nbsp;the&nbsp;years. 
+  clients: 
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: National Bank of Greece
+      logo: /assets/client-logos/logo-ete.png
+      url: 
+    - name: TYPET - Staff Health Fund of National Bank of Greece
+      logo: /assets/client-logos/logo-typet.png
+      url: 
+    - name: University of West Attica
+      logo: /assets/client-logos/logo-uniwa.png
+      url: 
+  retailers-title: Where to buy our products
+  retailers-text: The expansion of our direct distribution network is our most recent project. Some of our products are already available on Bol.com and in major Greek retail stores. 
+  retailers: 
+    - name: BOL
+      logo: /assets/client-logos/logo-bol.svg
+      url: https://bol.com
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: Cava Nektar
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
+el: 
+  clients-title: Πελάτες
+  clients-text: Επενδύουμε σημαντικά στην ανάπτυξη μακροχρόνιων συνεργασιών με τους πελάτες μας. Αυτές είναι μερικές από τις συνδέσεις που έχουμε χτίσει κατά τη διάρκεια των ετών. 
+  clients: 
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: Εθνική Τράπεζα της Ελλάδος
+      logo: /assets/client-logos/logo-ete.png
+      url: 
+    - name: ΤΥΠΕΤ - Ταμείο Υγείας Προσωπικού της Εθνικής Τράπεζας
+      logo: /assets/client-logos/logo-typet.png
+      url: 
+    - name: Πανεπιστήμιο Δυτικής Αττικής
+      logo: /assets/client-logos/logo-uniwa.png
+      url: 
+  retailers-title: Πού μπορείτε να αγοράσετε τα προϊόντα μας
+  retailers-text: Η επέκταση του δικτύου άμεσης διανομής μας είναι το πιο πρόσφατο έργο μας. Ορισμένα από τα προϊόντα μας είναι ήδη διαθέσιμα στο Bol.com (Ολλανδία) και σε μεγάλα ελληνικά καταστήματα λιανικής πώλησης.
+  retailers: 
+    - name: BOL
+      logo: /assets/client-logos/logo-bol.svg
+      url: https://bol.com
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: Κάβα Νέκταρ
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
+nl: 
+  clients-title: Cliënten
+  clients-text: Wij investeren veel in het ontwikkelen van lange termijn partnerships met onze klanten. Dit zijn enkele van de banden die we in de loop der jaren hebben opgebouwd.
+  clients: 
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: Nationale Bank van Griekenland
+      logo: /assets/client-logos/logo-ete.png
+      url: 
+    - name: TYPET - Gezondheidsfonds voor het personeel van de Nationale Bank van Griekenland
+      logo: /assets/client-logos/logo-typet.png
+      url: 
+    - name: Universiteit van West Attica
+      logo: /assets/client-logos/logo-uniwa.png
+      url: 
+  retailers-title: Waar kunt u onze producten kopen?
+  retailers-text: De uitbreiding van ons directe distributienetwerk is ons meest recente project. Sommige van onze producten zijn al verkrijgbaar op Bol.com en in grote Griekse detailhandelszaken. 
+  retailers: 
+    - name: BOL
+      logo: /assets/client-logos/logo-bol.svg
+      url: https://bol.com
+    - name: Market In
+      logo: /assets/client-logos/logo-market-in.jpg
+      url: https://www.market-in.gr
+    - name: Cava Nektar
+      logo: /assets/client-logos/logo-cava-nektar.svg
+      url: https://cavanektar.gr/
