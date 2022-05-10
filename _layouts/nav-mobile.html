@@ -30,15 +30,22 @@
             </a>
             {% endfor %}
 
-            <h2 class="f5 label mt4 mb2 o-80">Company</h2>
-            {% for navlink in site.data.navlinks[page.lang].navlinks %}
-                <a class="navlinks link dim dib pv2" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
-                </a>
-            {% endfor %}
+            <div class="flex">
+                <div class="w-50">
+                    <h2 class="f5 label mt4 mb2 o-80">Company</h2>
+                    {% for navlink in site.data.navlinks[page.lang].company %}
+                    <a class="navlinks link dim db pv1" href="/{{page.lang}}/{{navlink.url}}/">{{navlink.title}}
+                    </a> 
+                    {% endfor %}
+                </div>
+                <div class="w-50">
+                    <h2 class="f5 label mt4 mb2 o-80">Contact</h2>
+                    <a class="navlinks link dim db pv1" href="mailto:info@theeta.nl">info@theeta.nl</a>
+                    <a class="navlinks link dim db pv1" href="https://www.linkedin.com/company/74165055">LinkedIn</a>
+                </div>
+            </div>
 
-            <h2 class="f5 label mt4 mb2 o-80">Contact</h2>
-                <a class="navlinks link dim dib pv2" href="mailto:info@theeta.nl">info@theeta.nl</a>
-                <a class="navlinks link dim dib pv2" href="https://www.linkedin.com/company/74165055">LinkedIn</a>
+            
         </div>
 
 

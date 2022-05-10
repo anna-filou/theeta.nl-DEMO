@@ -13,6 +13,17 @@ en:
       url: clients
     - title: News
       url: news
+  company: 
+    - title: About
+      url: about
+    - title: Clients
+      url: clients
+    - title: News
+      url: news
+    - title: Careers
+      url: careers
+    - title: Contact
+      url: contact
 nl: 
   brands:
     - title: Beckher
