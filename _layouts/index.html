@@ -18,8 +18,6 @@
             </section>
         </article>
         
-        
-        
         <div class="bg-beige">
             <section class="pv6 flex flex-column flex-row-l justify-between">
                 <h2 class="f1 serif color-2 w-40-l mt2">
@@ -35,7 +33,7 @@
             <h2 class="f2 tc serif mt2 o-60 pb5 bb bw1 b--light-gray">
                 {{lang.clients.title}}
             </h2>
-            <div class="flex flex-column flex-row-l flex-wrap items-center items-top-l justify-around mb5 nl4 nr4">
+            <div class="flex flex-column flex-row-l flex-wrap items-center items-top-l justify-around mb5 nl4-l nr4-l">
                 {% for client in site.data.clients[page.lang].clients %}
                     <div class="w-50 w-20-l mb6 mt0-l mb4-l mh0 mh3-l">
                         <div class="h4 mb3 flex items-center justify-center">
@@ -55,18 +53,10 @@
                 url('/assets/abstract-bg-1.jpg');
                 background-size:cover;
                 height: 200px;
-            "
-            
-            >
+            ">
                 <h2 class="f1 f-subheadline-l center tc white shadow mv0 lh-tight">{{lang.brands.title}}</h2>
-                <!-- <div class="bg-white w-80 center w-50-l br3 pa5">
-                    
-                </div> -->
             </div>
         </section>
-        <!-- <div style="background-image: url('/assets/wastewater-1.jpg');  background-size: cover; height: 600px;";>
-        </div> -->
-        
         
         <section class="pt0">
             {%- for brand in site.data.brands[page.lang] -%}
@@ -94,21 +84,19 @@
             {%- endfor -%}   
         </section>
         
-        <section class="grid-container-2x2r pa2 pa5-l mb6 mb0-l">
-
+        <section class="grid-container-2x2 pa2 pa5-l mb6 mb0-l">
             {% for grid-link in site.data.index[page.lang].grid-links %}
             <a href="{{grid-link.url}}" class="no-underline grid-item-2x2 ">
                 <div class="grow pa4 pa5-l tc flex flex-column justify-center h-100">
                     <h3 class="label o-60 flex items-center justify-center">{{grid-link.label}}
                         <svg class="dib-hover white-50 ml2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"/></svg>
                     </h3>
-                    <div class="f1 lh-solid serif mb3">{{grid-link.title}}</div>
-                    <p class="lh-title o-70 f4">
+                    <div class="f2 f1-l lh-solid serif mb3">{{grid-link.title}}</div>
+                    <p class="lh-title o-70 f4-l">
                         {{grid-link.text}}
                     </p>
                 </div>
             </a>
-                
             {% endfor %}
         </section>
 

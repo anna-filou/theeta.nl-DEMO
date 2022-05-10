@@ -117,7 +117,7 @@ input, textarea {
 .beige {color: #F5F2F0; fill: #F5F2F0;}
 
 /* Grid 2x2 for inline nav links */
-.grid-container-2x2r {
+.grid-container-2x2 {
   display:grid;
   grid-template-columns: 1fr 1fr;
   /* grid-template-rows: 1fr 1fr; */
@@ -340,8 +340,9 @@ footer .color-logo-secondary {
 @media screen and (max-width: 910px) {
 
   /* Grid 2x2 for inline nav links */
-  .grid-container-2x2r {
+  .grid-container-2x2 {
     display:grid;
+    max-width: 100vw;
     grid-template-columns: 1fr;
     /* grid-template-rows: 1fr 1fr; */
     /* grid-row: 1fr 1fr; */
@@ -351,10 +352,11 @@ footer .color-logo-secondary {
   }
 
   .grid-item-2x2 {
-    background-color: #F5F2F0;
+    max-width: 100vw;
+    /* background-color: #F5F2F0; */
     /* border: #333 solid 1px; */
-    color: black;
-    aspect-ratio: 1;
+    /* color: black; */
+    /* aspect-ratio: 1; */
     /* transition: all 300ms; */
   }
 }
