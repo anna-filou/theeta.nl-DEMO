@@ -23,15 +23,18 @@ en:
   retailers-title: Where to buy our products
   retailers-text: The expansion of our direct distribution network is our most recent project. Some of our products are already available on Bol.com and in major Greek retail stores. 
   retailers: 
-    - name: BOL
+    - name: BOL (Netherlands)
       logo: /assets/client-logos/logo-bol.svg
-      url: https://bol.com
-    - name: Market In
+      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
+    - name: Market In (Greece)
       logo: /assets/client-logos/logo-market-in.jpg
-      url: https://www.market-in.gr
-    - name: Cava Nektar
+      url: https://www.market-in.gr/el-gr/ALL?Title=beckher
+    - name: Cava Nektar (Greece)
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
+  cta: 
+    title: Would you like to purchase our&nbsp;products?
+    button: Contact us
 el: 
   clients-title: Πελάτες
   clients-text: Επενδύουμε σημαντικά στην ανάπτυξη μακροχρόνιων συνεργασιών με τους πελάτες μας. Αυτές είναι μερικές από τις συνδέσεις που έχουμε χτίσει κατά τη διάρκεια των ετών. 
@@ -54,18 +57,21 @@ el:
     - name: Υγεία
       logo: /assets/client-logos/logo-hygeia.png
       url: https://www.hygeia.gr/
-  retailers-title: Πού μπορείτε να αγοράσετε τα προϊόντα μας
+  retailers-title: Πού μπορείτε να<br>αγοράσετε τα προϊόντα μας
   retailers-text: Η επέκταση του δικτύου άμεσης διανομής μας είναι το πιο πρόσφατο έργο μας. Ορισμένα από τα προϊόντα μας είναι ήδη διαθέσιμα στο Bol.com (Ολλανδία) και σε μεγάλα ελληνικά καταστήματα λιανικής πώλησης.
   retailers: 
-    - name: BOL
+    - name: BOL (Ολλανδία)
       logo: /assets/client-logos/logo-bol.svg
-      url: https://bol.com
+      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
     - name: Market In
       logo: /assets/client-logos/logo-market-in.jpg
-      url: https://www.market-in.gr
+      url: https://www.market-in.gr/el-gr/ALL?Title=beckher
     - name: Κάβα Νέκταρ
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
+  cta: 
+    title: Ενδιαφέρεστε για τα προϊόντα&nbsp;μας;
+    button: Επικοινωνήστε μαζί μας
 nl: 
   clients-title: Cliënten
   clients-text: Wij investeren veel in het ontwikkelen van lange termijn partnerships met onze klanten. Dit zijn enkele van de banden die we in de loop der jaren hebben opgebouwd.
@@ -93,10 +99,13 @@ nl:
   retailers: 
     - name: BOL
       logo: /assets/client-logos/logo-bol.svg
-      url: https://bol.com
-    - name: Market In
+      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
+    - name: Market In (Griekenland)
       logo: /assets/client-logos/logo-market-in.jpg
-      url: https://www.market-in.gr
-    - name: Cava Nektar
+      url: https://www.market-in.gr/el-gr/ALL?Title=beckher
+    - name: Cava Nektar (Griekenland)
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
+  cta: 
+    title: Zou u onze producten willen&nbsp;kopen?
+    button: Neem contact met ons op

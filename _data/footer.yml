@@ -13,7 +13,7 @@ en:
     links: 
     - name: About
       url: about
-    - name: Clients
+    - name: Points of Sale
       url: clients
     - name: News
       url: news
@@ -51,7 +51,7 @@ el:
     links: 
     - name: Σχετικά με εμάς
       url: about
-    - name: Πελάτες
+    - name: Σημεία πώλησης
       url: clients
     - name: Νέα
       url: news
@@ -89,7 +89,7 @@ nl:
     links: 
     - name: Over ons
       url: about
-    - name: Cliënten
+    - name: Verkooppunten
       url: clients
     - name: Nieuws
       url: news

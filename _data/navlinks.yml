@@ -9,14 +9,14 @@ en:
   navlinks:
     - title: About
       url: about
-    - title: Clients
+    - title: Partners
       url: clients
     - title: News
       url: news
   company: 
     - title: About
       url: about
-    - title: Clients
+    - title: Points of Sale
       url: clients
     - title: News
       url: news
@@ -35,14 +35,14 @@ nl:
   navlinks:
     - title: Over ons
       url: about
-    - title: Cliënten
+    - title: Partners
       url: clients
     - title: Nieuws
       url: news
   company: 
     - title: Over ons
       url: about
-    - title: Cliënten
+    - title: Verkooppunten
       url: clients
     - title: Nieuws
       url: news
@@ -61,14 +61,14 @@ el:
   navlinks:
     - title: Εταιρεία
       url: about
-    - title: Πελάτες
+    - title: Λιανική
       url: clients
     - title: Νέα
       url: news
   company: 
     - title: Εταιρεία
       url: about
-    - title: Πελάτες
+    - title: Συνεργάτες
       url: clients
     - title: Νέα
       url: news
