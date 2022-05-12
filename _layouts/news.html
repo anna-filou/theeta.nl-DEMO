@@ -30,17 +30,17 @@ layout: default
 
     <a class="db no-underline dim near-black mb5" href="{{ post.url | relative_url }}">
         <div class="flex flex-column flex-row-l">
-        {%- if post.main-image -%}
+        {%- if post.image -%}
             <div class="w-100 w-30-l mr0 mr5-l">
                 <div class="db aspect-ratio aspect-ratio--6x4">
-                    <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object br2"></span>
+                    <span role="img" style="background-image:url({{post.image}});" class="bg-center cover aspect-ratio--object br2"></span>
                 </div>
             </div>
             <div class="w-100 w-60-l">
         {% else %}
             <!-- <div class="w-100 w-30-l mr0 mr5-l">
                 <div class="db aspect-ratio aspect-ratio--6x4 ">
-                    <span role="img" style="background-image:url({{post.main-image}});" class="bg-center cover aspect-ratio--object"></span>
+                    <span role="img" style="background-image:url({{post.image}});" class="bg-center cover aspect-ratio--object"></span>
                 </div>
             </div> -->
             <div class="w-100 w-60-l">
