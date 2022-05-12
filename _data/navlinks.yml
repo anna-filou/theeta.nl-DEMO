@@ -9,8 +9,8 @@ en:
   navlinks:
     - title: About
       url: about
-    - title: Partners
-      url: clients
+    - title: Contact
+      url: contact
     - title: News
       url: news
   company: 
@@ -35,8 +35,8 @@ nl:
   navlinks:
     - title: Over ons
       url: about
-    - title: Partners
-      url: clients
+    - title: Contact
+      url: contact
     - title: Nieuws
       url: news
   company: 
@@ -61,8 +61,8 @@ el:
   navlinks:
     - title: Εταιρεία
       url: about
-    - title: Λιανική
-      url: clients
+    - title: Επικοινωνία
+      url: contact
     - title: Νέα
       url: news
   company: 

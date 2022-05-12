@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
 }
 
 p {
@@ -21,7 +21,7 @@ section {
 }
 
 h1,h2 {
-  font-family: serif;
+  font-family: 'Literata', serif;
   font-weight: 400;
   margin-bottom: 1 em;
   margin-top: 2em;
@@ -42,22 +42,20 @@ footer p {
   margin: 0;
 }
 
-.label {
-  font-family: 'Consolas', 'Courier New', Courier, monospace;
-  font-weight: 500;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
 .max-h-100 {
   max-height: 100%;
  }
  
-/* {% include nav-mobile.css %} */
+{% include nav-mobile.css %}
 
-.label, label, form label {
-  font-family: monospace;
-  font-weight: 600;
+/* .label {
+  font-family: 'Cousine', monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+} */
+
+label, form label, .label {
+  font-family: 'Cousine', monospace;
   font-size: 14px;
   line-height: 18px;
   letter-spacing: 0.1em;

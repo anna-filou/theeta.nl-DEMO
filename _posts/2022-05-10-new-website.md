@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  Unveiling our new website
+title:  Demo - Unveiling our new website
 lang: en
-main-image: /meta-image.jpg
+main-image: /uploads/theeta-website-mockup.jpeg
 ---
 
 As Theeta grows, 
