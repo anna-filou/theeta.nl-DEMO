@@ -45,27 +45,26 @@ en:
     Netherlands  
 el:
   brand-cta: Ανακαλύψτε τις μάρκες μας →
-  main-text: | 
-    # Σχετικά με τη Theeta
+  blocks: 
+    - title: Τι κάνουμε
+      text: | 
+        Η Theeta αποτελείται από παραρτήματα που δραστηριοποιούνται σε διάφορους τομείς εισαγωγών, εξαγωγών και παραγωγής.
 
-    Η Theeta αποτελείται από παραρτήματα που δραστηριοποιούνται σε διάφορους τομείς εισαγωγών, εξαγωγών και παραγωγής.
+        Επί του παρόντος, η Theeta κατασκευάζει ηλεκτρικές και ηλεκτρονικές συσκευές, διανέμει ιταλικό κρασί και μοναδικές λύσεις χημικής απολύμανσης υψηλής τεχνολογίας, καθώς και παρέχει σε οργανισμούς απαραίτητα μέσα ατομικής προστασίας. 
+    - title: Συνεργαστήτε μαζί μας
+      text: | 
+        Σας προσκαλούμε να εξερευνήσετε αυτή την ιστοσελίδα για να μάθετε περισσότερα για το εμπορικό σήμα που παράγουμε και αυτά που διανέμουμε. 
 
-    Επί του παρόντος, η Theeta κατασκευάζει ηλεκτρικές και ηλεκτρονικές συσκευές, διανέμει ιταλικό κρασί και μοναδικές λύσεις χημικής απολύμανσης υψηλής τεχνολογίας, καθώς και παρέχει σε οργανισμούς απαραίτητα μέσα ατομικής προστασίας. 
+        **Ειδικευόμαστε στη διανομή και είμαστε ανοιχτοί σε νέες συνεργασίες**.
 
-    Σας προσκαλούμε να εξερευνήσετε αυτή την ιστοσελίδα για να μάθετε περισσότερα για το εμπορικό σήμα που παράγουμε και αυτά που διανέμουμε. 
+        Το επιχειρηματικό μας μοντέλο είναι η οικοδόμηση μακροχρόνιων, αμοιβαία επωφελών σχέσεων με αξιόπιστους προμηθευτές και συνεργάτες διανομής.
+    - title: Επικοινωνία
+      text: | 
+        Στείλτε μας ένα email στο **info@theeta.nl** για περισσότερες πληροφορίες και ευκαιρίες συνεργασίας.
 
-    **Ειδικευόμαστε στη διανομή και είμαστε ανοιχτοί σε νέες συνεργασίες**.
+        Οι υπάλληλοί μας έχουν περισσότερα από 15 χρόνια εμπειρίας στην έρευνα αγοράς, στις λειτουργικές διαδικασίες και σε ό,τι συνεπάγεται η λειτουργία επιτυχημένων επιχειρήσεων παραγωγής και διανομής.
 
-    Το επιχειρηματικό μας μοντέλο είναι η οικοδόμηση μακροχρόνιων, αμοιβαία επωφελών σχέσεων με αξιόπιστους προμηθευτές και συνεργάτες διανομής.
-
-    ## Επικοινωνία 
-
-    Στείλτε μας ένα email στο **[info@theeta.nl](mailto:info@theeta.nl)** για περισσότερες πληροφορίες και ευκαιρίες συνεργασίας.
-
-    Οι υπάλληλοί μας έχουν περισσότερα από 15 χρόνια εμπειρίας στην έρευνα αγοράς, στις λειτουργικές διαδικασίες και σε ό,τι συνεπάγεται η λειτουργία επιτυχημένων επιχειρήσεων παραγωγής και διανομής.
-
-    **Θα θέλαμε πολύ να μιλήσουμε**.
-
+        **Θα θέλαμε πολύ να μιλήσουμε**.
   company-info: | 
     ## Στοιχεία εταιρείας
 
@@ -90,27 +89,26 @@ el:
     Ολλανδία  
 nl:
   brand-cta: Ontdek onze merken →
-  main-text: | 
-    # Over Theeta
+  blocks: 
+    - title: Wat we doen
+      text: | 
+        Theeta bestaat uit bijkantoren die werkzaam zijn in verschillende sectoren van import, export en productie.
 
-    Theeta bestaat uit bijkantoren die werkzaam zijn in verschillende sectoren van import, export en productie.
+        Momenteel produceert Theeta elektrische en elektronische apparaten, distribueert het Italiaanse wijn en unieke high-tech chemische desinfectie-oplossingen, en voorziet het organisaties van de broodnodige persoonlijke beschermingsmiddelen. 
+    - title: Met ons samenwerken
+      text: | 
+        Wij nodigen u uit deze webpagina te verkennen om meer te weten te komen over de merken die wij produceren en de merken die wij distribueren. 
 
-    Momenteel produceert Theeta elektrische en elektronische apparaten, distribueert het Italiaanse wijn en unieke high-tech chemische desinfectie-oplossingen, en voorziet het organisaties van de broodnodige persoonlijke beschermingsmiddelen. 
+        **Wij zijn gespecialiseerd in distributie en staan open voor nieuwe partnerschappen**.
 
-    Wij nodigen u uit deze webpagina te verkennen om meer te weten te komen over de merken die wij produceren en de merken die wij distribueren. 
+        Ons bedrijfsmodel is het opbouwen van langdurige, wederzijds voordelige relaties met vertrouwde leveranciers en distributiepartners.
+    - title: Contact opnemen
+      text: | 
+        Email ons op **info@theeta.nl** voor meer informatie en samenwerkingsmogelijkheden.
 
-    **Wij zijn gespecialiseerd in distributie en staan open voor nieuwe partnerschappen**.
+        Onze medewerkers hebben meer dan 15 jaar ervaring in marktonderzoek, operations en alles wat komt kijken bij het runnen van succesvolle productie- en distributiebedrijven.
 
-    Ons bedrijfsmodel is het opbouwen van langdurige, wederzijds voordelige relaties met vertrouwde leveranciers en distributiepartners.
-
-    ## Contact 
-
-    Email ons op **[info@theeta.nl](mailto:info@theeta.nl)** voor meer informatie en samenwerkingsmogelijkheden.
-
-    Onze medewerkers hebben meer dan 15 jaar ervaring in marktonderzoek, operations en alles wat komt kijken bij het runnen van succesvolle productie- en distributiebedrijven.
-
-    **We willen graag praten.**
-
+        **We willen graag praten.**
   company-info: | 
     ## Bedrijfsinformatie
 
