@@ -25,7 +25,7 @@ en:
   retailers: 
     - name: BOL (Netherlands)
       logo: /assets/client-logos/logo-bol.svg
-      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
+      url: https://www.bol.com/nl/nl/w/alle-artikelen-theeta/1699603/
     - name: Market In (Greece)
       logo: /assets/client-logos/logo-market-in.jpg
       url: https://www.market-in.gr/el-gr/ALL?Title=beckher
@@ -33,7 +33,7 @@ en:
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
   cta: 
-    title: Would you like to purchase our&nbsp;products?
+    title: Would you like to resell our&nbsp;products?
     button: Contact us
 el: 
   clients-title: Πελάτες
@@ -62,7 +62,7 @@ el:
   retailers: 
     - name: BOL (Ολλανδία)
       logo: /assets/client-logos/logo-bol.svg
-      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
+      url: https://www.bol.com/nl/nl/w/alle-artikelen-theeta/1699603/
     - name: Market In
       logo: /assets/client-logos/logo-market-in.jpg
       url: https://www.market-in.gr/el-gr/ALL?Title=beckher
@@ -70,7 +70,7 @@ el:
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
   cta: 
-    title: Ενδιαφέρεστε για τα προϊόντα&nbsp;μας;
+    title: Θα σας ενδιέφερε η μεταπώληση των προϊόντων&nbsp;μας;
     button: Επικοινωνήστε μαζί μας
 nl: 
   clients-title: Cliënten
@@ -99,7 +99,7 @@ nl:
   retailers: 
     - name: BOL
       logo: /assets/client-logos/logo-bol.svg
-      url: https://www.bol.com/nl/nl/v/overdeverkoper/1699603
+      url: https://www.bol.com/nl/nl/w/alle-artikelen-theeta/1699603/
     - name: Market In (Griekenland)
       logo: /assets/client-logos/logo-market-in.jpg
       url: https://www.market-in.gr/el-gr/ALL?Title=beckher
@@ -107,5 +107,5 @@ nl:
       logo: /assets/client-logos/logo-cava-nektar.svg
       url: https://cavanektar.gr/
   cta: 
-    title: Zou u onze producten willen&nbsp;kopen?
+    title: Zou u graag onze producten doorverkopen?
     button: Neem contact met ons op
