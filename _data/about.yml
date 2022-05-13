@@ -1,25 +1,25 @@
 en: 
   brand-cta: Discover our brands →
-  main-text: | 
-    # About Theeta
+  blocks: 
+    - title: What we do
+      text: | 
+        Theeta consists of subsidiaries working in various sectors of import, export and production.
 
-    Theeta consists of subsidiaries working in various sectors of import, export and production.
+        Currently, Theeta manufactures electric and electronic appliances, distributes Italian wine and unique high-tech chemical disinfection solutions, along with providing organizations with much-needed personal protective equipment. 
+    - title: Work with us
+      text: | 
+        We invite you to explore this webpage to find out more about the brand we produce and the ones we distribute. 
 
-    Currently, Theeta manufactures electric and electronic appliances, distributes Italian wine and unique high-tech chemical disinfection solutions, along with providing organizations with much-needed personal protective equipment. 
+        **We specialize in distribution and are open to new partnerships.**
 
-    We invite you to explore this webpage to find out more about the brand we produce and the ones we distribute. 
+        Our business model is building long-lasting, mutually beneficial relationships with trusted suppliers and distribution partners.
+    - title: Contact
+      text: | 
+        Email us at **info@theeta.nl** for more information and collaboration opportunities.
 
-    **We specialize in distribution and are open to new partnerships.**
+        Our employees have more than 15 years of experience in market research, operations and everything that comes with running successful manufacturing and distribution businesses.
 
-    Our business model is building long-lasting, mutually beneficial relationships with trusted suppliers and distribution partners.
-
-    ## Contact 
-
-    Email us at **[info@theeta.nl](mailto:info@theeta.nl)** for more information and collaboration opportunities.
-
-    Our employees have more than 15 years of experience in market research, operations and everything that comes with running successful manufacturing and distribution businesses.
-
-    **We'd love to talk.**
+        **We'd love to talk.**
 
   company-info: | 
     ## Company Information
