@@ -1,4 +1,5 @@
 en: 
+  h1: About Theeta
   brand-cta: Discover our brands →
   blocks: 
     - title: What we do
@@ -44,6 +45,7 @@ en:
     3990 GC, Houten  
     Netherlands  
 el:
+  h1: Σχετικά με τη Theeta
   brand-cta: Ανακαλύψτε τις μάρκες μας →
   blocks: 
     - title: Τι κάνουμε
@@ -88,6 +90,7 @@ el:
     3990 GC, Houten  
     Ολλανδία  
 nl:
+  h1: Over Theeta
   brand-cta: Ontdek onze merken →
   blocks: 
     - title: Wat we doen
