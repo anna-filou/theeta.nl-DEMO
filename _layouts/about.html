@@ -1,4 +1,29 @@
 ---
 layout: default
 ---
-about
+{% assign lang = site.data.about[page.lang] %}
+
+<section>
+    <div class="measure-wide center dark-gray">
+        {{ lang.main-text | markdownify }}
+    </div>
+</section>
+
+<section class="flex flex-column flex-row-l justify-around ph5 w-90-m w-80-l bg-near-white br4 black-70">
+    <div class="w-40-l">
+        <svg class="black-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"><path fill="none" d="M0 0h24v24H0z"/><path d="M3 19V5.7a1 1 0 0 1 .658-.94l9.671-3.516a.5.5 0 0 1 .671.47v4.953l6.316 2.105a1 1 0 0 1 .684.949V19h2v2H1v-2h2zm2 0h7V3.855L5 6.401V19zm14 0v-8.558l-5-1.667V19h5z"/></svg>
+        {{ lang.company-info | markdownify }}
+    </div>
+    <div class="w-20-l mt5 mt0-l">
+        <svg class="black-40" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="36" height="36"><path fill="none" d="M0 0h24v24H0z"/><path d="M22 20.007a1 1 0 0 1-.992.993H2.992A.993.993 0 0 1 2 20.007V19h18V7.3l-8 7.2-10-9V4a1 1 0 0 1 1-1h18a1 1 0 0 1 1 1v16.007zM4.434 5L12 11.81 19.566 5H4.434zM0 15h8v2H0v-2zm0-5h5v2H0v-2z"/></svg>
+        {{ lang.po-box | markdownify }}
+    </div>
+</section>
+
+<section>
+    <h1 class="f3 f1-l mb4 black-60">{{lang.brand-cta}}</h1>
+    {% include brand-cards.html %}
+</section>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.0.1/vue.min.js'></script>
+<script src="/script.js"></script>
