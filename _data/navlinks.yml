@@ -1,4 +1,5 @@
 en: 
+  menu-close: Home
   brands:
     - title: Beckher
       url: beckher
@@ -25,6 +26,7 @@ en:
     - title: Contact
       url: contact
 nl: 
+  menu-close: Startpagina
   brands:
     - title: Beckher
       url: beckher
@@ -51,6 +53,7 @@ nl:
     - title: Contact
       url: contact
 el: 
+  menu-close: Αρχική
   brands:
     - title: Beckher
       url: beckher
