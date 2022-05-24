@@ -71,7 +71,7 @@ en:
     #     description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
     #     bg-color: washed-green
     #     text-color: dark-green
-    #   - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+    #   - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v3.pdf
     #     title: Applications in Facility Management
     #     type: PDF
     #     description: Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
@@ -198,21 +198,21 @@ el:
       loc: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
       size: 25 MB
     docs: 
-      - file: /uploads/SANOSIL_Super_25_Water_Disinfectant_V2.1_GREEK.pdf
+      - file: /uploads/Sanosil Super 25 - distributed by Theeta.zip
         title: Sanosil Super 25
-        type: ZIP με αρχεία PDF
+        type: ZIP με PDF | 7,4 MB
         description: 'Και οι αραιώσεις του: S015, S010, S003 (Active ingredients: H₂O₂ and Ag)'
         bg-color: washed-blue
         text-color: dark-blue
       - file: /uploads/Sanosil - Ιατρικές εφαρμογές και πληροφορίες από τη Theeta - v3.pdf
         title: Εφαρμογές στον ιατρικό τομέα
-        type: PDF
+        type: PDF | 860 kB
         description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
         bg-color: washed-green
         text-color: dark-green
-      - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+      - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v3.pdf
         title: Εφαρμογές στη διαχείριση εγκαταστάσεων
-        type: PDF
+        type: PDF | 450 kB
         description: Συντήρηση κτιρίων / Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
         bg-color: washed-yellow
         text-color: dark-red
@@ -281,7 +281,7 @@ el:
     docs: 
       - file: /uploads/Theeta - Miravento Sparkling Wines 2022 EL - website.pdf
         title: Παρουσίαση Κρασιών Miravento 2022
-        type: PDF
+        type: PDF | 1,2 MB
         description: Moscato d’Asti DOCG, Moscato Rosé, Prosecco DOC
         bg-color: washed-red
         text-color: dark-red
@@ -351,7 +351,7 @@ nl:
     #     description: Αεροζόλ/νεφελοποίηση, νοσοκομεία/ιδρυματική περίθαλψη, καταπολέμηση οσμών
     #     bg-color: washed-green
     #     text-color: dark-green
-    #   - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v2.pdf
+    #   - file: /uploads/Sanosil - Διαχείριση Εγκαταστάσεων από τη Theeta - v3.pdf
     #     title: Applications in Facility Management
     #     type: PDF
     #     description: Καθαρισμός επιφανειών / συστημάτων εξαερισμού HVAC / μετά από πλημμύρες / λεγεωνέλλας στο νερό
