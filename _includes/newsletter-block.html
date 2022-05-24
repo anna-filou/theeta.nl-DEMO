@@ -1,0 +1,12 @@
+    <form class=" center bg-beige mw7-l pa4 br3 ba b--black-10" action="/{{page.lang}}/success/" method="POST" name="Newsletter Form" netlify >
+    <fieldset class="bn ma0 pa0">
+        <h2 class="pa0 f4 f3-ns black-60 mt0 mb4 flex items-center">
+            <svg class="mr2 nb1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"/><path d="M2.243 6.854L11.49 1.31a1 1 0 0 1 1.029 0l9.238 5.545a.5.5 0 0 1 .243.429V20a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V7.283a.5.5 0 0 1 .243-.429zM4 8.133V19h16V8.132l-7.996-4.8L4 8.132zm8.06 5.565l5.296-4.463 1.288 1.53-6.57 5.537-6.71-5.53 1.272-1.544 5.424 4.47z"/></svg>
+            {{site.data.newsletter[page.lang].title}}</h2>
+        <div class="flex items-stretch flex-column flex-row-ns">
+        <label class="clip" for="email-address">Email Address</label>
+        <input class="flex-grow-1 f6 f5-l pa3 black-80 bg-white mr3-ns mb3 mb0-ns br3" placeholder="{{site.data.newsletter[page.lang].email}}" type="email" name="email-address" value="" id="email-address">
+        <input class="mb0 f6 f5-l label tc button pointer br3" type="submit" value="{{site.data.newsletter[page.lang].send}}">
+        </div>
+    </fieldset>
+    </form>
